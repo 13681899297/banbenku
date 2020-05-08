@@ -1,6 +1,45 @@
 {
     "NodeList": [
         {
+            "NodePh": "66",
+            "NodePro": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "",
+                "vardesc": "",
+                "varname": "lv_totalResult",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodePw": "198",
+            "NodePx": "951",
+            "NodePy": "266",
+            "NodeSubType": "EnumWidget_VarBVGet",
+            "NodeTag": "lv_totalResult"
+        },
+        {
+            "NodePh": "143",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Win_IPrint",
+                "EP_EnumWidget_VALUE": "816",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "218",
+            "NodePx": "1133",
+            "NodePy": "100",
+            "NodeSubType": "EnumWidget_Win_IPrint",
+            "NodeTag": "输出"
+        },
+        {
             "NodePh": "103",
             "NodePro": {
                 "EP_CONTROL": {
@@ -16,8 +55,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "337",
-            "NodePy": "286",
+            "NodePx": "273",
+            "NodePy": "300",
             "NodeSubType": "EnumWidget_Code_Custom",
             "NodeTag": "代码块"
         },
@@ -25,8 +64,8 @@
             "NodePh": "103",
             "NodePro": {
                 "EP_CONTROL": {
-                    "EP_CONTROL_CODE": "",
-                    "EP_CONTROL_IMPORT": ""
+                    "EP_CONTROL_CODE": "lv_totalResult = lv_totalResult.append(lv_pageResult,ignore_index=True)",
+                    "EP_CONTROL_IMPORT": "import pandas as pd"
                 },
                 "EP_EnumWidget_NAME": "EnumWidget_Code_Custom",
                 "EP_EnumWidget_VALUE": "818",
@@ -37,8 +76,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1057",
-            "NodePy": "306",
+            "NodePx": "833",
+            "NodePy": "220",
             "NodeSubType": "EnumWidget_Code_Custom",
             "NodeTag": "代码块"
         },
@@ -54,8 +93,8 @@
                 }
             },
             "NodePw": "218",
-            "NodePx": "1317",
-            "NodePy": "286",
+            "NodePx": "1313",
+            "NodePy": "160",
             "NodeSubType": "EnumWidget_Win_IPrint",
             "NodeTag": "输出"
         },
@@ -76,8 +115,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "1017",
-            "NodePy": "486",
+            "NodePx": "993",
+            "NodePy": "420",
             "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "lv_pageResult"
         },
@@ -98,8 +137,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "1348",
-            "NodePy": "452",
+            "NodePx": "1344",
+            "NodePy": "326",
             "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "lv_pageResult"
         },
@@ -138,8 +177,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "877",
-            "NodePy": "306",
+            "NodePx": "633",
+            "NodePy": "240",
             "NodeSubType": "EnumWidget_IE_GetTable",
             "NodeTag": "拾取表格(web)"
         },
@@ -148,8 +187,8 @@
             "NodePro": {
             },
             "NodePw": "242",
-            "NodePx": "617",
-            "NodePy": "286",
+            "NodePx": "493",
+            "NodePy": "220",
             "NodeSubType": "EnumWidget_Syntax_while",
             "NodeTag": "While循环"
         },
@@ -165,8 +204,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "177",
-            "NodePy": "266",
+            "NodePx": "173",
+            "NodePy": "140",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }

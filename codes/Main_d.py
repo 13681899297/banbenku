@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:03:39
+# 编译日期：2020-05-08 15:06:00
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -12,6 +12,7 @@ import pandas as pd
 import ubpa.ibrowse as ibrowse
 import ubpa.iie as iie
 import ubpa.ikeyboard as ikeyboard
+import ubpa.itools.rpa_str as rpa_str
 
 class YeHongJun_KaoShi:
      
@@ -36,7 +37,7 @@ class YeHongJun_KaoShi:
         lv_totalResult=None
         lv_pageResult=None
         # 代码块
-        self.__logger.debug('Flow:GetData,StepNodeTag:0815030114185,Note:')
+        self.__logger.debug('Flow:GetData,StepNodeTag:0815030114185,Note:初始化lv_totalResult')
         lv_totalResult = pd.DataFrame()
         # While循环
         self.__logger.debug('Flow:GetData,StepNodeTag:0814504953647,Note:')
@@ -46,7 +47,10 @@ class YeHongJun_KaoShi:
             lv_pageResult = iie.get_ie_table(title=r'理财管理',selector=r'#boxTable',waitfor=10)
             # 代码块
             self.__logger.debug('Flow:GetData,StepNodeTag:0815024293883,Note:')
-            
+            lv_totalResult = lv_totalResult.append(lv_pageResult,ignore_index=True)
+            # 输出
+            self.__logger.debug('Flow:GetData,StepNodeTag:0815055220088,Note:')
+            rpa_str.iprints(lv_totalResult)
       
     def LoginCSM(self):
         password='TVlUqIwIyp0eXB=='
@@ -106,6 +110,6 @@ if __name__ == '__main__':
         elif opt in ("-i", "--input"):
             input_arg = arg
     pro = YeHongJun_KaoShi(robot_no=robot_no,proc_no=proc_no,job_no=job_no,input_arg=input_arg)
-    pro.Main()
+    pro.GetData()
     ___logger = ILog(__file__)
     ___logger.debug('Class:Main,ProTag:Quit,Note:Exit')
