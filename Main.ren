@@ -1,0 +1,22 @@
+{
+    "NodeList": [
+        {
+            "NodePh": "103",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Begin",
+                "EP_EnumWidget_VALUE": "10",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "100",
+            "NodePy": "108",
+            "NodeSubType": "EnumWidget_Begin",
+            "NodeTag": "开始"
+        }
+    ],
+    "SeqTag": "Main_bp"
+}
