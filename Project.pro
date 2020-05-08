@@ -4,9 +4,9 @@
     "MainSeq": {
         "seq": "Main"
     },
-    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    }\n]\n",
+    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"LoginCSM\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/05/08 14:37:33",
+        "ProChange": "2020/05/08 14:38:53",
         "ProCreate": "2020/05/08 14:28:04",
         "ProDesc": "",
         "ProImports": "",
@@ -26,19 +26,20 @@
             "sdc": "",
             "seq": "Main",
             "sop": "Close",
+            "spy": "Main"
+        },
+        {
+            "group": "",
+            "num": "1",
+            "sdc": "",
+            "seq": "LoginCSM",
+            "sop": "Close",
             "spv": [
                 {
-                    "inpar_Order": "",
-                    "inpar_filetype": "",
-                    "inpar_helpdesc": "",
-                    "inpar_init": "",
-                    "inpar_required": "0",
-                    "inputpar": "",
-                    "vardef": "'http://122.112.200.222:9080/login.action'",
+                    "vardef": "",
                     "vardesc": "",
-                    "varname": "url",
+                    "varname": "url2",
                     "varpasstype": "1",
-                    "varrobot": "",
                     "vartype": "1"
                 }
             ],
