@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:36:10
+# 编译日期：2020-05-08 15:37:48
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -36,7 +36,7 @@ class YeHongJun_KaoShi:
             self.input_arg = self.input_arg.replace("\\","/")
       
     def ExportExcel(self,pv_df=None):
-        lv_fileName='YHJ_KaoHe'
+        lv_fileName='YHJ_KaoHe.xlsx'
         lv_UserProfile=None
         #获取环境变量
         self.__logger.debug('Flow:ExportExcel,StepNodeTag:08152548128127,Note:')
