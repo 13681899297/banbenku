@@ -6,7 +6,7 @@
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"LoginCSM\"\n    },\n    {\n        \"seq\": \"ProductsPage\"\n    },\n    {\n        \"seq\": \"GetData\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/05/08 15:01:57",
+        "ProChange": "2020/05/08 15:03:38",
         "ProCreate": "2020/05/08 14:28:04",
         "ProDesc": "",
         "ProImports": "",
@@ -109,7 +109,7 @@
                     "inpar_init": "",
                     "inpar_required": "0",
                     "inputpar": "",
-                    "vardef": "pd.DataFrame()",
+                    "vardef": "",
                     "vardesc": "",
                     "varname": "lv_totalResult",
                     "varpasstype": "1",
