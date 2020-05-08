@@ -1,11 +1,12 @@
 {
-    "GlobalVar": null,
+    "GlobalVar": [
+    ],
     "MainSeq": {
         "seq": "Main"
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/05/08 14:28:04",
+        "ProChange": "2020/05/08 14:37:33",
         "ProCreate": "2020/05/08 14:28:04",
         "ProDesc": "",
         "ProImports": "",
@@ -25,6 +26,22 @@
             "sdc": "",
             "seq": "Main",
             "sop": "Close",
+            "spv": [
+                {
+                    "inpar_Order": "",
+                    "inpar_filetype": "",
+                    "inpar_helpdesc": "",
+                    "inpar_init": "",
+                    "inpar_required": "0",
+                    "inputpar": "",
+                    "vardef": "'http://122.112.200.222:9080/login.action'",
+                    "vardesc": "",
+                    "varname": "url",
+                    "varpasstype": "1",
+                    "varrobot": "",
+                    "vartype": "1"
+                }
+            ],
             "spy": "Main"
         }
     ]

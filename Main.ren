@@ -1,6 +1,49 @@
 {
     "NodeList": [
         {
+            "NodePh": "66",
+            "NodePro": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "'http://122.112.200.222:9080/login.action'",
+                "vardesc": "",
+                "varname": "url",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodePw": "198",
+            "NodePx": "223",
+            "NodePy": "432",
+            "NodeSubType": "EnumWidget_VarBVGet",
+            "NodeTag": "url"
+        },
+        {
+            "NodePh": "253",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "param": "",
+                    "timeout": ""
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "290",
+            "NodePx": "583",
+            "NodePy": "252",
+            "NodeSubType": "EnumWidget_Config_Begin",
+            "NodeTag": "打开浏览器"
+        },
+        {
             "NodePh": "103",
             "NodePro": {
                 "EP_EnumWidget_NAME": "EnumWidget_Begin",
@@ -12,8 +55,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "100",
-            "NodePy": "108",
+            "NodePx": "263",
+            "NodePy": "232",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }

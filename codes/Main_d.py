@@ -58,3 +58,5 @@ if __name__ == '__main__':
             input_arg = arg
     pro = YeHongJun_KaoShi(robot_no=robot_no,proc_no=proc_no,job_no=job_no,input_arg=input_arg)
     pro.Main()
+    ___logger = ILog(__file__)
+    ___logger.debug('Class:Main,ProTag:Quit,Note:Exit')

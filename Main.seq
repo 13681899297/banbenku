@@ -1,7 +1,175 @@
 {
     "LineList": [
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "081437294037_r_var_0",
+                "Px": "4716",
+                "Py": "5116"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "081436571984_l_par_1",
+                "Px": "4939",
+                "Py": "5074"
+            },
+            "LineTag": "081437293935",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "081436571984_l_flow_0",
+                "Px": "4925",
+                "Py": "4984"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "081428048541_r_flow_0",
+                "Px": "4790",
+                "Py": "4964"
+            },
+            "LineTag": "081436557783",
+            "LineType": "2"
+        }
     ],
     "NodeList": [
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "0": ""
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                },
+                "VarProperty": {
+                    "inpar_Order": "",
+                    "inpar_filetype": "",
+                    "inpar_helpdesc": "",
+                    "inpar_init": "",
+                    "inpar_required": "0",
+                    "inputpar": "",
+                    "vardef": "'http://122.112.200.222:9080/login.action'",
+                    "vardesc": "",
+                    "varname": "url",
+                    "varpasstype": "1",
+                    "varrobot": "",
+                    "vartype": "1"
+                }
+            },
+            "NodeProperty": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "'http://122.112.200.222:9080/login.action'",
+                "vardesc": "",
+                "varname": "url",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodeUI": {
+                "FNodePx": "123",
+                "FNodePy": "332",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "r_var_0"
+                    }
+                ],
+                "NodePx": "4558",
+                "NodePy": "5088",
+                "NodeSubType": "EnumWidget_VarBVGet",
+                "NodeTag": "081437294037",
+                "NodeTitle": "url"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "browser_type": "'ie'"
+                    },
+                    {
+                        "url": ""
+                    },
+                    {
+                        "path": ""
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                }
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                    "param": "",
+                    "timeout": ""
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "483",
+                "FNodePy": "152",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "l_occ_0"
+                    },
+                    {
+                        "Pidx": "l_par_0"
+                    },
+                    {
+                        "Pidx": "l_par_1"
+                    },
+                    {
+                        "Pidx": "l_par_2"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_ret_0"
+                    }
+                ],
+                "NodePx": "4918",
+                "NodePy": "4908",
+                "NodeSubKeyNo": "Browser01",
+                "NodeSubType": "EnumWidget_Config_Begin",
+                "NodeTag": "081436571984",
+                "NodeTitle": "打开浏览器"
+            }
+        },
         {
             "NodePanelData": {
                 "InputProperty": [
@@ -25,16 +193,16 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "688",
-                "FNodePy": "378",
+                "FNodePx": "163",
+                "FNodePy": "132",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
                         "Pidx": "r_flow_0"
                     }
                 ],
-                "NodePx": "5118",
-                "NodePy": "5128",
+                "NodePx": "4598",
+                "NodePy": "4888",
                 "NodeSubType": "EnumWidget_Begin",
                 "NodeTag": "081428048541",
                 "NodeTitle": "开始"
@@ -43,7 +211,7 @@
     ],
     "OpType": "0",
     "SeqTag": "Main_bp",
-    "ViewCenterPx": "5123",
-    "ViewCenterPy": "5134",
+    "ViewCenterPx": "5128",
+    "ViewCenterPy": "5140",
     "ViewScaling": "1"
 }
