@@ -1,21 +1,26 @@
 {
     "NodeList": [
         {
-            "NodePh": "143",
+            "NodePh": "66",
             "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Win_IPrint",
-                "EP_EnumWidget_VALUE": "816",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "",
+                "vardesc": "",
+                "varname": "lv_UserProfile",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
             },
-            "NodePw": "218",
-            "NodePx": "928",
-            "NodePy": "237",
-            "NodeSubType": "EnumWidget_Win_IPrint",
-            "NodeTag": "输出"
+            "NodePw": "198",
+            "NodePx": "548",
+            "NodePy": "437",
+            "NodeSubType": "EnumWidget_VarBVSet",
+            "NodeTag": "lv_UserProfile"
         },
         {
             "NodePh": "173",
@@ -50,8 +55,8 @@
                 }
             },
             "NodePw": "256",
-            "NodePx": "948",
-            "NodePy": "237",
+            "NodePx": "1068",
+            "NodePy": "217",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "创建excel"
         },

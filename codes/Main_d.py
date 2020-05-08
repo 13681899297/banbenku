@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:29:52
+# 编译日期：2020-05-08 15:31:59
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -10,10 +10,10 @@ from sys import argv
 import sys
 import pandas as pd
 import ubpa.ibrowse as ibrowse
+import ubpa.iexcel as iexcel
 import ubpa.iie as iie
 import ubpa.ikeyboard as ikeyboard
 import ubpa.itools.rpa_environment as rpa_environment
-import ubpa.itools.rpa_str as rpa_str
 
 class YeHongJun_KaoShi:
      
@@ -35,12 +35,13 @@ class YeHongJun_KaoShi:
             self.input_arg = self.input_arg.replace("\\","/")
       
     def ExportExcel(self):
+        lv_UserProfile=None
         #获取环境变量
         self.__logger.debug('Flow:ExportExcel,StepNodeTag:08152548128127,Note:')
-        tvar08152548128127 = rpa_environment.get_sys_variable(var='USERPROFILE')
-        # 输出
-        self.__logger.debug('Flow:ExportExcel,StepNodeTag:08152616815133,Note:')
-        rpa_str.iprints(tvar08152548128127)
+        lv_UserProfile = rpa_environment.get_sys_variable(var='USERPROFILE')
+        #创建excel
+        self.__logger.debug('Flow:ExportExcel,StepNodeTag:08152534447125,Note:')
+        iexcel.create_excel(path=lv_UserProfile + '\Desktop\',file_name='YHJ_KaoHe')
       
     def GetData(self,pv_maxPageNumber=7,pv_key='i-Search-05'):
         lv_totalResult=None
