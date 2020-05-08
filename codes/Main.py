@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:22:04
+# 编译日期：2020-05-08 15:27:57
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -12,6 +12,7 @@ import pandas as pd
 import ubpa.ibrowse as ibrowse
 import ubpa.iie as iie
 import ubpa.ikeyboard as ikeyboard
+import ubpa.itools.rpa_environment as rpa_environment
 import ubpa.itools.rpa_str as rpa_str
 
 class YeHongJun_KaoShi:
@@ -32,6 +33,14 @@ class YeHongJun_KaoShi:
         if('input_arg' in kwargs.keys()):
             self.input_arg = kwargs['input_arg']
             self.input_arg = self.input_arg.replace("\\","/")
+      
+    def ExportExcel(self):
+        #获取环境变量
+        self.__logger.debug('Flow:ExportExcel,StepNodeTag:08152548128127,Note:')
+        tvar08152548128127 = rpa_environment.get_sys_variable(var=Desktop)
+        # 输出
+        self.__logger.debug('Flow:ExportExcel,StepNodeTag:08152616815133,Note:')
+        rpa_str.iprints(tvar08152548128127)
       
     def GetData(self,pv_maxPageNumber=7,pv_key='i-Search-05'):
         lv_totalResult=None
@@ -54,9 +63,9 @@ class YeHongJun_KaoShi:
         # 表格过滤
         self.__logger.debug('Flow:GetData,StepNodeTag:0815121659699,Note:')
         tvar0815121659699 = lv_totalResult[(lv_totalResult['产品代码'].str.startswith(pv_key))]
-        # 输出
-        self.__logger.debug('Flow:GetData,StepNodeTag:08151333829105,Note:')
-        rpa_str.iprints(tvar0815121659699)
+        # Return返回
+        self.__logger.debug('Flow:GetData,StepNodeTag:08152243722120,Note:')
+        return tvar0815121659699
       
     def LoginCSM(self):
         password='TVlUqIwIyp0eXB=='
@@ -119,4 +128,4 @@ if __name__ == '__main__':
         elif opt in ("-i", "--input"):
             input_arg = arg
     pro = YeHongJun_KaoShi(robot_no=robot_no,proc_no=proc_no,job_no=job_no,input_arg=input_arg)
-    pro.GetData()
+    pro.ExportExcel()
