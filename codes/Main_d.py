@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:13:53
+# 编译日期：2020-05-08 15:15:44
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -94,6 +94,9 @@ class YeHongJun_KaoShi:
         # 子流程:ProductsPage
         self.__logger.debug('Flow:Main,StepNodeTag:0814473839038,Note:')
         (temptemp)=self.ProductsPage()
+        # 子流程:GetData
+        self.__logger.debug('Flow:Main,StepNodeTag:08151445709108,Note:')
+        (temptemp)=self.GetData(pv_maxPageNumber=7,pv_key='i-Search-05')
  
 if __name__ == '__main__':
     robot_no = ''
