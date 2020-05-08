@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 14:54:37
+# 编译日期：2020-05-08 14:58:23
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -11,7 +11,7 @@ import sys
 import ubpa.ibrowse as ibrowse
 import ubpa.iie as iie
 import ubpa.ikeyboard as ikeyboard
-import ubpa.itools.rpa_fun as rpa_fun
+import ubpa.itools.rpa_str as rpa_str
 
 class YeHongJun_KaoShi:
      
@@ -33,16 +33,17 @@ class YeHongJun_KaoShi:
             self.input_arg = self.input_arg.replace("\\","/")
       
     def GetData(self,pv_key=None):
+        lv_totalResult=None
         lv_pageResult=None
         # While循环
         self.__logger.debug('Flow:GetData,StepNodeTag:0814504953647,Note:')
         while True:
             # IE拾取表格(web)
             self.__logger.debug('Flow:GetData,StepNodeTag:0814522186952,Note:')
-            tvar0814522186952 = iie.get_ie_table(title=r'理财管理',selector=r'#boxTable',waitfor=10)
-            #append
-            self.__logger.debug('Flow:GetData,StepNodeTag:0814540765462,Note:')
-            lv_pageResult = rpa_fun.list_append(list=lv_pageResult,obj=tvar0814522186952)
+            lv_pageResult = iie.get_ie_table(title=r'理财管理',selector=r'#boxTable',waitfor=10)
+            # 输出
+            self.__logger.debug('Flow:GetData,StepNodeTag:0814580593881,Note:')
+            rpa_str.iprints(typeof(lv_pageResult))
       
     def LoginCSM(self):
         password='TVlUqIwIyp0eXB=='

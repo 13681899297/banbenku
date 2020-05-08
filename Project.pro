@@ -6,7 +6,7 @@
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"LoginCSM\"\n    },\n    {\n        \"seq\": \"ProductsPage\"\n    },\n    {\n        \"seq\": \"GetData\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/05/08 14:54:36",
+        "ProChange": "2020/05/08 14:58:23",
         "ProCreate": "2020/05/08 14:28:04",
         "ProDesc": "",
         "ProImports": "",
@@ -102,6 +102,20 @@
                 }
             ],
             "spv": [
+                {
+                    "inpar_Order": "",
+                    "inpar_filetype": "",
+                    "inpar_helpdesc": "",
+                    "inpar_init": "",
+                    "inpar_required": "0",
+                    "inputpar": "",
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "lv_totalResult",
+                    "varpasstype": "1",
+                    "varrobot": "",
+                    "vartype": "1"
+                },
                 {
                     "vardef": "",
                     "vardesc": "",
