@@ -11,6 +11,81 @@
                 "inputpar": "",
                 "vardef": "",
                 "vardesc": "",
+                "varname": "lv_fileName",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodePw": "198",
+            "NodePx": "628",
+            "NodePy": "487",
+            "NodeSubType": "EnumWidget_VarBVGet",
+            "NodeTag": "lv_fileName"
+        },
+        {
+            "NodePh": "66",
+            "NodePro": {
+                "vardef": "",
+                "vardesc": "",
+                "varname": "pv_df"
+            },
+            "NodePw": "198",
+            "NodePx": "588",
+            "NodePy": "567",
+            "NodeSubType": "EnumWidget_VarBPGet",
+            "NodeTag": "pv_df"
+        },
+        {
+            "NodePh": "253",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "header": "True",
+                    "index": "False"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "256",
+            "NodePx": "1368",
+            "NodePy": "207",
+            "NodeSubType": "EnumWidget_Config_Begin",
+            "NodeTag": "导出excel"
+        },
+        {
+            "NodePh": "103",
+            "NodePro": {
+                "EP_CONTROL": {
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "1088",
+            "NodePy": "227",
+            "NodeSubType": "EnumWidget_Config_Begin",
+            "NodeTag": "关闭excel应用"
+        },
+        {
+            "NodePh": "66",
+            "NodePro": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "",
+                "vardesc": "",
                 "varname": "lv_UserProfile",
                 "varpasstype": "1",
                 "varrobot": "",
@@ -18,7 +93,7 @@
             },
             "NodePw": "198",
             "NodePx": "548",
-            "NodePy": "437",
+            "NodePy": "427",
             "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "lv_UserProfile"
         },
@@ -36,8 +111,8 @@
                 }
             },
             "NodePw": "238",
-            "NodePx": "608",
-            "NodePy": "237",
+            "NodePx": "508",
+            "NodePy": "227",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "获取环境变量"
         },
@@ -55,8 +130,8 @@
                 }
             },
             "NodePw": "256",
-            "NodePx": "1068",
-            "NodePy": "217",
+            "NodePx": "808",
+            "NodePy": "227",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "创建excel"
         },
@@ -72,8 +147,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "388",
-            "NodePy": "237",
+            "NodePx": "228",
+            "NodePy": "227",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }

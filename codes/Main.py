@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:31:59
+# 编译日期：2020-05-08 15:36:10
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -10,6 +10,7 @@ from sys import argv
 import sys
 import pandas as pd
 import ubpa.ibrowse as ibrowse
+import ubpa.icsv as icsv
 import ubpa.iexcel as iexcel
 import ubpa.iie as iie
 import ubpa.ikeyboard as ikeyboard
@@ -34,14 +35,21 @@ class YeHongJun_KaoShi:
             self.input_arg = kwargs['input_arg']
             self.input_arg = self.input_arg.replace("\\","/")
       
-    def ExportExcel(self):
+    def ExportExcel(self,pv_df=None):
+        lv_fileName='YHJ_KaoHe'
         lv_UserProfile=None
         #获取环境变量
         self.__logger.debug('Flow:ExportExcel,StepNodeTag:08152548128127,Note:')
         lv_UserProfile = rpa_environment.get_sys_variable(var='USERPROFILE')
         #创建excel
         self.__logger.debug('Flow:ExportExcel,StepNodeTag:08152534447125,Note:')
-        iexcel.create_excel(path=lv_UserProfile + '\Desktop\',file_name='YHJ_KaoHe')
+        iexcel.create_excel(path=lv_UserProfile + '\\Desktop\\',file_name=lv_fileName)
+        #关闭excel应用
+        self.__logger.debug('Flow:ExportExcel,StepNodeTag:08153320996142,Note:')
+        iexcel.close_excel_apps()
+        #导出excel
+        self.__logger.debug('Flow:ExportExcel,StepNodeTag:08153330549144,Note:')
+        icsv.write_excel(path=lv_UserProfile + '\\Desktop\\' + lv_fileName,df=pv_df)
       
     def GetData(self,pv_maxPageNumber=7,pv_key='i-Search-05'):
         lv_totalResult=None
@@ -105,7 +113,10 @@ class YeHongJun_KaoShi:
         (temptemp)=self.ProductsPage()
         # 子流程:GetData
         self.__logger.debug('Flow:Main,StepNodeTag:08151445709108,Note:')
-        (temptemp)=self.GetData(pv_maxPageNumber=7,pv_key='i-Search-05')
+        (tvar08151445709108)=self.GetData(pv_maxPageNumber=7,pv_key='i-Search-05')
+        # 子流程:ExportExcel
+        self.__logger.debug('Flow:Main,StepNodeTag:08153531919158,Note:')
+        (temptemp)=self.ExportExcel(pv_df=tvar08151445709108)
  
 if __name__ == '__main__':
     robot_no = ''
@@ -129,4 +140,4 @@ if __name__ == '__main__':
         elif opt in ("-i", "--input"):
             input_arg = arg
     pro = YeHongJun_KaoShi(robot_no=robot_no,proc_no=proc_no,job_no=job_no,input_arg=input_arg)
-    pro.ExportExcel()
+    pro.Main()

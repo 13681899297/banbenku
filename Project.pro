@@ -6,7 +6,7 @@
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"LoginCSM\"\n    },\n    {\n        \"seq\": \"ProductsPage\"\n    },\n    {\n        \"seq\": \"GetData\"\n    },\n    {\n        \"seq\": \"ExportExcel\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/05/08 15:31:58",
+        "ProChange": "2020/05/08 15:36:09",
         "ProCreate": "2020/05/08 14:28:04",
         "ProDesc": "",
         "ProImports": "",
@@ -137,7 +137,28 @@
             "sdc": "",
             "seq": "ExportExcel",
             "sop": "Close",
+            "spr": [
+                {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "pv_df"
+                }
+            ],
             "spv": [
+                {
+                    "inpar_Order": "",
+                    "inpar_filetype": "",
+                    "inpar_helpdesc": "",
+                    "inpar_init": "",
+                    "inpar_required": "0",
+                    "inputpar": "",
+                    "vardef": "'YHJ_KaoHe'",
+                    "vardesc": "",
+                    "varname": "lv_fileName",
+                    "varpasstype": "1",
+                    "varrobot": "",
+                    "vartype": "1"
+                },
                 {
                     "vardef": "",
                     "vardesc": "",
