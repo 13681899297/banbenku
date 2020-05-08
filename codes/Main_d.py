@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:46:42
+# 编译日期：2020-05-08 15:48:11
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -62,12 +62,14 @@ class YeHongJun_KaoShi:
         for i in range(pv_maxPageNumber):
             # IE拾取表格(web)
             self.__logger.debug('Flow:GetData,StepNodeTag:0814522186952,Note:')
+            time.sleep(1)
             lv_pageResult = iie.get_ie_table(title=r'理财管理',selector=r'#boxTable',waitfor=10)
             # 代码块
             self.__logger.debug('Flow:GetData,StepNodeTag:08152035948114,Note:合并结果')
             lv_totalResult = lv_totalResult.append(lv_pageResult)
             # 鼠标点击
             self.__logger.debug('Flow:GetData,StepNodeTag:0815065762293,Note:翻页')
+            time.sleep(1)
             iie.do_click_pos(win_title=r'双录系统-录音、录像、录屏 - Internet Explorer',title=r'理财管理',selector=r'#ListForm > DIV:nth-of-type(2) > DIV:nth-of-type(1) > DIV:nth-of-type(2) > FONT:nth-of-type(1) > DIV:nth-of-type(1) > SPAN:nth-of-type(3)',button=r'left',curson=r'center',times=1,run_mode=r'ctrl',continue_on_error=r'break',waitfor=10)
         # 表格过滤
         self.__logger.debug('Flow:GetData,StepNodeTag:0815121659699,Note:筛选出目标结果')
