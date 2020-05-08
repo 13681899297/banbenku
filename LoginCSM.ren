@@ -35,8 +35,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1638",
-            "NodePy": "415",
+            "NodePx": "1888",
+            "NodePy": "416",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -57,8 +57,8 @@
                 "vartype": "2"
             },
             "NodePw": "198",
-            "NodePx": "1116",
-            "NodePy": "641",
+            "NodePx": "1242",
+            "NodePy": "612",
             "NodeSubType": "EnumWidget_VarBVGet",
             "NodeTag": "password"
         },
@@ -94,8 +94,8 @@
                 }
             },
             "NodePw": "218",
-            "NodePx": "1318",
-            "NodePy": "395",
+            "NodePx": "1555",
+            "NodePy": "416",
             "NodeSubType": "EnumWidget_IE_SetText",
             "NodeTag": "设置文本"
         },
@@ -116,8 +116,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "876",
-            "NodePy": "557",
+            "NodePx": "909",
+            "NodePy": "632",
             "NodeSubType": "EnumWidget_VarBVGet",
             "NodeTag": "userName"
         },
@@ -153,8 +153,8 @@
                 }
             },
             "NodePw": "218",
-            "NodePx": "1038",
-            "NodePy": "395",
+            "NodePx": "1222",
+            "NodePy": "416",
             "NodeSubType": "EnumWidget_IE_SetText",
             "NodeTag": "设置文本"
         },
@@ -180,8 +180,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "738",
-            "NodePy": "395",
+            "NodePx": "893",
+            "NodePy": "416",
             "NodeSubType": "EnumWidget_Key_HotKey",
             "NodeTag": "热键输入"
         },
@@ -202,8 +202,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "138",
-            "NodePy": "555",
+            "NodePx": "175",
+            "NodePy": "519",
             "NodeSubType": "EnumWidget_VarBVGet",
             "NodeTag": "url"
         },
@@ -223,8 +223,8 @@
                 }
             },
             "NodePw": "290",
-            "NodePx": "398",
-            "NodePy": "415",
+            "NodePx": "488",
+            "NodePy": "416",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "打开浏览器"
         },
@@ -240,8 +240,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "158",
-            "NodePy": "415",
+            "NodePx": "159",
+            "NodePy": "416",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }

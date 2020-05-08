@@ -4,8 +4,8 @@
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "0814464601036_l_flow_0",
-                "Px": "5385",
-                "Py": "5164"
+                "Px": "5383",
+                "Py": "5064"
             },
             "LineSplit": {
                 "Px": "",
@@ -13,8 +13,8 @@
             },
             "LineStart": {
                 "Pidx": "0814463326434_r_flow_0",
-                "Px": "5310",
-                "Py": "5104"
+                "Px": "5239",
+                "Py": "5064"
             },
             "LineTag": "0814464377135",
             "LineType": "2"
@@ -23,8 +23,8 @@
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "0814463326434_l_flow_0",
-                "Px": "5125",
-                "Py": "5104"
+                "Px": "5054",
+                "Py": "5064"
             },
             "LineSplit": {
                 "Px": "",
@@ -86,8 +86,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "979",
-                "FNodePy": "339",
+                "FNodePx": "988",
+                "FNodePy": "240",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -97,8 +97,8 @@
                         "Pidx": "r_flow_0"
                     }
                 ],
-                "NodePx": "5378",
-                "NodePy": "5088",
+                "NodePx": "5376",
+                "NodePy": "4988",
                 "NodeSubType": "EnumWidget_IE_MouseClick",
                 "NodeTag": "0814464601036",
                 "NodeTitle": "鼠标点击"
@@ -150,8 +150,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "719",
-                "FNodePy": "279",
+                "FNodePx": "659",
+                "FNodePy": "240",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -161,8 +161,8 @@
                         "Pidx": "r_flow_0"
                     }
                 ],
-                "NodePx": "5118",
-                "NodePy": "5028",
+                "NodePx": "5047",
+                "NodePy": "4988",
                 "NodeSubType": "EnumWidget_IE_MouseClick",
                 "NodeTag": "0814463326434",
                 "NodeTitle": "鼠标点击"
@@ -191,8 +191,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "319",
-                "FNodePy": "239",
+                "FNodePx": "330",
+                "FNodePy": "240",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -209,7 +209,7 @@
     ],
     "OpType": "0",
     "SeqTag": "ProductsPage_bp",
-    "ViewCenterPx": "5092",
-    "ViewCenterPy": "5133",
+    "ViewCenterPx": "5081",
+    "ViewCenterPy": "5050",
     "ViewScaling": "1"
 }

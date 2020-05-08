@@ -35,8 +35,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1078",
-            "NodePy": "438",
+            "NodePx": "1088",
+            "NodePy": "340",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -75,8 +75,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "818",
-            "NodePy": "378",
+            "NodePx": "759",
+            "NodePy": "340",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
         },
@@ -92,8 +92,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "418",
-            "NodePy": "338",
+            "NodePx": "430",
+            "NodePy": "340",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }
