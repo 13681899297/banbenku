@@ -17,27 +17,10 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "868",
-            "NodePy": "578",
-            "NodeSubType": "EnumWidget_VarBVGet",
+            "NodePx": "1339",
+            "NodePy": "464",
+            "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "lv_pageResult"
-        },
-        {
-            "NodePh": "143",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Win_IPrint",
-                "EP_EnumWidget_VALUE": "816",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "218",
-            "NodePx": "1108",
-            "NodePy": "378",
-            "NodeSubType": "EnumWidget_Win_IPrint",
-            "NodeTag": "输出"
         },
         {
             "NodePh": "66",
@@ -56,10 +39,29 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "648",
-            "NodePy": "598",
-            "NodeSubType": "EnumWidget_VarBVSet",
+            "NodePx": "768",
+            "NodePy": "558",
+            "NodeSubType": "EnumWidget_VarBVGet",
             "NodeTag": "lv_pageResult"
+        },
+        {
+            "NodePh": "213",
+            "NodePro": {
+                "EP_CONTROL": {
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "239",
+            "NodePx": "1028",
+            "NodePy": "298",
+            "NodeSubType": "EnumWidget_Config_Begin",
+            "NodeTag": "append"
         },
         {
             "NodePh": "186",
@@ -97,7 +99,7 @@
             },
             "NodePw": "214",
             "NodePx": "728",
-            "NodePy": "358",
+            "NodePy": "278",
             "NodeSubType": "EnumWidget_IE_GetTable",
             "NodeTag": "拾取表格(web)"
         },

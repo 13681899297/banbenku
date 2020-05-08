@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 14:53:12
+# 编译日期：2020-05-08 14:54:37
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -11,7 +11,7 @@ import sys
 import ubpa.ibrowse as ibrowse
 import ubpa.iie as iie
 import ubpa.ikeyboard as ikeyboard
-import ubpa.itools.rpa_str as rpa_str
+import ubpa.itools.rpa_fun as rpa_fun
 
 class YeHongJun_KaoShi:
      
@@ -39,10 +39,10 @@ class YeHongJun_KaoShi:
         while True:
             # IE拾取表格(web)
             self.__logger.debug('Flow:GetData,StepNodeTag:0814522186952,Note:')
-            lv_pageResult = iie.get_ie_table(title=r'理财管理',selector=r'#boxTable',waitfor=10)
-            # 输出
-            self.__logger.debug('Flow:GetData,StepNodeTag:0814525847857,Note:')
-            rpa_str.iprints(lv_pageResult)
+            tvar0814522186952 = iie.get_ie_table(title=r'理财管理',selector=r'#boxTable',waitfor=10)
+            #append
+            self.__logger.debug('Flow:GetData,StepNodeTag:0814540765462,Note:')
+            lv_pageResult = rpa_fun.list_append(list=lv_pageResult,obj=tvar0814522186952)
       
     def LoginCSM(self):
         password='TVlUqIwIyp0eXB=='
