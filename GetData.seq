@@ -3,9 +3,28 @@
         {
             "LineColor": "255, 170, 170",
             "LineEnd": {
+                "Pidx": "0815065762293_l_flow_0",
+                "Px": "4865",
+                "Py": "5444"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "0815055220088_r_flow_0",
+                "Px": "6534",
+                "Py": "5004"
+            },
+            "LineTag": "0815065245792",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
                 "Pidx": "0815055785691_r_var_0",
-                "Px": "5434",
-                "Py": "5082"
+                "Px": "6016",
+                "Py": "5185"
             },
             "LineSplit": {
                 "Px": "",
@@ -13,8 +32,8 @@
             },
             "LineStart": {
                 "Pidx": "0815055220088_l_par_0",
-                "Px": "5479",
-                "Py": "4994"
+                "Px": "6359",
+                "Py": "5034"
             },
             "LineTag": "0815055784789",
             "LineType": "2"
@@ -23,8 +42,8 @@
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "0815055220088_l_flow_0",
-                "Px": "5465",
-                "Py": "4964"
+                "Px": "6345",
+                "Py": "5004"
             },
             "LineSplit": {
                 "Px": "",
@@ -32,8 +51,8 @@
             },
             "LineStart": {
                 "Pidx": "0815024293883_r_flow_0",
-                "Px": "5350",
-                "Py": "5084"
+                "Px": "6210",
+                "Py": "4984"
             },
             "LineTag": "0815054710487",
             "LineType": "2"
@@ -42,8 +61,8 @@
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "0815030114185_l_flow_0",
-                "Px": "4605",
-                "Py": "5164"
+                "Px": "4834",
+                "Py": "5004"
             },
             "LineSplit": {
                 "Px": "",
@@ -61,8 +80,8 @@
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "0814504953647_l_flow_0",
-                "Px": "4825",
-                "Py": "5084"
+                "Px": "5163",
+                "Py": "5004"
             },
             "LineSplit": {
                 "Px": "",
@@ -70,8 +89,8 @@
             },
             "LineStart": {
                 "Pidx": "0815030114185_r_flow_0",
-                "Px": "4790",
-                "Py": "5164"
+                "Px": "5019",
+                "Py": "5004"
             },
             "LineTag": "0815030412486",
             "LineType": "2"
@@ -80,8 +99,8 @@
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "0815024293883_l_flow_0",
-                "Px": "5165",
-                "Py": "5084"
+                "Px": "6025",
+                "Py": "4984"
             },
             "LineSplit": {
                 "Px": "",
@@ -89,8 +108,8 @@
             },
             "LineStart": {
                 "Pidx": "0814522186952_r_flow_0",
-                "Px": "5150",
-                "Py": "5104"
+                "Px": "5690",
+                "Py": "5004"
             },
             "LineTag": "0815023663782",
             "LineType": "2"
@@ -99,8 +118,8 @@
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "0814570242977_l_var_0",
-                "Px": "5325",
-                "Py": "5236"
+                "Px": "5849",
+                "Py": "5119"
             },
             "LineSplit": {
                 "Px": "",
@@ -108,8 +127,8 @@
             },
             "LineStart": {
                 "Pidx": "0814522186952_r_ret_0",
-                "Px": "5150",
-                "Py": "5134"
+                "Px": "5690",
+                "Py": "5034"
             },
             "LineTag": "0814570242075",
             "LineType": "2"
@@ -118,8 +137,8 @@
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "0814522186952_l_flow_0",
-                "Px": "4965",
-                "Py": "5104"
+                "Px": "5505",
+                "Py": "5004"
             },
             "LineSplit": {
                 "Px": "",
@@ -127,14 +146,78 @@
             },
             "LineStart": {
                 "Pidx": "0814504953647_r_sub_0",
-                "Px": "5038",
-                "Py": "5144"
+                "Px": "5376",
+                "Py": "5064"
             },
             "LineTag": "0814521619851",
             "LineType": "2"
         }
     ],
     "NodeList": [
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "18",
+                    "mouse_y_pos": "4",
+                    "selcomment": "0",
+                    "seltype": "Web",
+                    "snapshot_preview": "/screenshots/snapshot_20200508150725948.jpeg"
+                }
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#ListForm > DIV:nth-of-type(2) > DIV:nth-of-type(1) > DIV:nth-of-type(2) > FONT:nth-of-type(1) > DIV:nth-of-type(1) > SPAN:nth-of-type(3)'",
+                    "EP_CONTROL_TAG_NAME": "'SPAN'",
+                    "EP_CONTROL_TITLE": "'理财管理'",
+                    "EP_CONTROL_URL": "",
+                    "EP_CONTROL_WINDOW_TITLE": "'双录系统-录音、录像、录屏 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200508150725948.jpeg",
+                    "mouse_x_pos": "18",
+                    "mouse_y_pos": "4"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "321.098",
+                "FNodePy": "447.116",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    }
+                ],
+                "NodePx": "4858",
+                "NodePy": "5368",
+                "NodeSubType": "EnumWidget_IE_MouseClick",
+                "NodeTag": "0815065762293",
+                "NodeTitle": "鼠标点击"
+            }
+        },
         {
             "NodePanelData": {
                 "InputProperty": [
@@ -180,16 +263,16 @@
                 "vartype": "1"
             },
             "NodeUI": {
-                "FNodePx": "504.771",
-                "FNodePy": "564.443",
+                "FNodePx": "738.78",
+                "FNodePy": "358.985",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
                         "Pidx": "r_var_0"
                     }
                 ],
-                "NodePx": "5276",
-                "NodePy": "5054",
+                "NodePx": "5858",
+                "NodePy": "5157",
                 "NodeSubType": "EnumWidget_VarBVGet",
                 "NodeTag": "0815055785691",
                 "NodeTitle": "lv_totalResult"
@@ -221,8 +304,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "620.634",
-                "FNodePy": "458.765",
+                "FNodePx": "939.267",
+                "FNodePy": "263.336",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -235,8 +318,8 @@
                         "Pidx": "r_flow_0"
                     }
                 ],
-                "NodePx": "5458",
-                "NodePy": "4888",
+                "NodePx": "6338",
+                "NodePy": "4928",
                 "NodeSubType": "EnumWidget_Win_IPrint",
                 "NodeTag": "0815055220088",
                 "NodeTitle": "输出"
@@ -269,8 +352,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "73.147",
-                "FNodePy": "586.087",
+                "FNodePx": "308.15",
+                "FNodePy": "263.336",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -280,8 +363,8 @@
                         "Pidx": "r_flow_0"
                     }
                 ],
-                "NodePx": "4598",
-                "NodePy": "5088",
+                "NodePx": "4827",
+                "NodePy": "4928",
                 "NodeSubType": "EnumWidget_Code_Custom",
                 "NodeTag": "0815030114185",
                 "NodeTitle": "代码块"
@@ -314,8 +397,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "429.65",
-                "FNodePy": "535.158",
+                "FNodePx": "805.609",
+                "FNodePy": "254.982",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -325,8 +408,8 @@
                         "Pidx": "r_flow_0"
                     }
                 ],
-                "NodePx": "5158",
-                "NodePy": "5008",
+                "NodePx": "6018",
+                "NodePy": "4908",
                 "NodeSubType": "EnumWidget_Code_Custom",
                 "NodeTag": "0815024293883",
                 "NodeTitle": "代码块"
@@ -336,53 +419,6 @@
             "NodePanelData": {
                 "InputProperty": [
                     {
-                        "0": "type(lv_pageResult)"
-                    }
-                ],
-                "PubProperty": {
-                    "NodeRemark": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0",
-                    "selcomment": "0",
-                    "seltype": "",
-                    "snapshot_preview": ""
-                }
-            },
-            "NodeProperty": {
-                "EP_EnumWidget_NAME": "EnumWidget_Win_IPrint",
-                "EP_EnumWidget_VALUE": "816",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodeUI": {
-                "FNodePx": "735.225",
-                "FNodePy": "496.962",
-                "NodeIsBreak": "0",
-                "NodePort": [
-                    {
-                        "Pidx": "l_flow_0"
-                    },
-                    {
-                        "Pidx": "l_par_0"
-                    },
-                    {
-                        "Pidx": "r_flow_0"
-                    }
-                ],
-                "NodePx": "5638",
-                "NodePy": "4948",
-                "NodeSubType": "EnumWidget_Win_IPrint",
-                "NodeTag": "0814580593881",
-                "NodeTitle": "输出"
-            }
-        },
-        {
-            "NodePanelData": {
-                "InputProperty": [
-                    {
                         "0": ""
                     }
                 ],
@@ -417,71 +453,18 @@
                 "vartype": "1"
             },
             "NodeUI": {
-                "FNodePx": "531.508",
-                "FNodePy": "662.481",
+                "FNodePx": "732.097",
+                "FNodePy": "331.418",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
                         "Pidx": "l_var_0"
                     }
                 ],
-                "NodePx": "5318",
-                "NodePy": "5208",
+                "NodePx": "5842",
+                "NodePy": "5091",
                 "NodeSubType": "EnumWidget_VarBVSet",
                 "NodeTag": "0814570242977",
-                "NodeTitle": "lv_pageResult"
-            }
-        },
-        {
-            "NodePanelData": {
-                "InputProperty": [
-                    {
-                        "0": ""
-                    }
-                ],
-                "PubProperty": {
-                    "NodeRemark": "",
-                    "mouse_x_pos": "0",
-                    "mouse_y_pos": "0",
-                    "selcomment": "0",
-                    "seltype": "",
-                    "snapshot_preview": ""
-                },
-                "VarProperty": {
-                    "vardef": "",
-                    "vardesc": "",
-                    "varname": "lv_pageResult",
-                    "varpasstype": "1",
-                    "vartype": "1"
-                }
-            },
-            "NodeProperty": {
-                "inpar_Order": "",
-                "inpar_filetype": "",
-                "inpar_helpdesc": "",
-                "inpar_init": "",
-                "inpar_required": "0",
-                "inputpar": "",
-                "vardef": "",
-                "vardesc": "",
-                "varname": "lv_pageResult",
-                "varpasstype": "1",
-                "varrobot": "",
-                "vartype": "1"
-            },
-            "NodeUI": {
-                "FNodePx": "754.96",
-                "FNodePy": "602.639",
-                "NodeIsBreak": "0",
-                "NodePort": [
-                    {
-                        "Pidx": "l_var_0"
-                    }
-                ],
-                "NodePx": "5669",
-                "NodePy": "5114",
-                "NodeSubType": "EnumWidget_VarBVSet",
-                "NodeTag": "0814543068568",
                 "NodeTitle": "lv_pageResult"
             }
         },
@@ -531,8 +514,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "302.328",
-                "FNodePy": "547.891",
+                "FNodePx": "588.415",
+                "FNodePy": "263.336",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -545,8 +528,8 @@
                         "Pidx": "r_ret_0"
                     }
                 ],
-                "NodePx": "4958",
-                "NodePy": "5028",
+                "NodePx": "5498",
+                "NodePy": "4928",
                 "NodeSubType": "EnumWidget_IE_GetTable",
                 "NodeTag": "0814522186952",
                 "NodeTitle": "拾取表格(web)"
@@ -571,8 +554,8 @@
             "NodeProperty": {
             },
             "NodeUI": {
-                "FNodePx": "213.202",
-                "FNodePy": "535.158",
+                "FNodePx": "445.567",
+                "FNodePy": "263.336",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -591,8 +574,8 @@
                         "Pidx": "r_sub_0"
                     }
                 ],
-                "NodePx": "4818",
-                "NodePy": "5008",
+                "NodePx": "5156",
+                "NodePy": "4928",
                 "NodeSubType": "EnumWidget_Syntax_while",
                 "NodeTag": "0814504953647",
                 "NodeTitle": "While循环"
@@ -621,8 +604,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "9.48571",
-                "FNodePy": "484.229",
+                "FNodePx": "170.733",
+                "FNodePy": "263.336",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -639,7 +622,7 @@
     ],
     "OpType": "0",
     "SeqTag": "GetData_bp",
-    "ViewCenterPx": "5571.67",
-    "ViewCenterPy": "4770.56",
-    "ViewScaling": "0.636613"
+    "ViewCenterPx": "5748.39",
+    "ViewCenterPy": "5214.5",
+    "ViewScaling": "0.417682"
 }

@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:06:00
+# 编译日期：2020-05-08 15:07:35
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -51,6 +51,9 @@ class YeHongJun_KaoShi:
             # 输出
             self.__logger.debug('Flow:GetData,StepNodeTag:0815055220088,Note:')
             rpa_str.iprints(lv_totalResult)
+            # 鼠标点击
+            self.__logger.debug('Flow:GetData,StepNodeTag:0815065762293,Note:')
+            iie.do_click_pos(win_title=r'双录系统-录音、录像、录屏 - Internet Explorer',title=r'理财管理',selector=r'#ListForm > DIV:nth-of-type(2) > DIV:nth-of-type(1) > DIV:nth-of-type(2) > FONT:nth-of-type(1) > DIV:nth-of-type(1) > SPAN:nth-of-type(3)',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
       
     def LoginCSM(self):
         password='TVlUqIwIyp0eXB=='

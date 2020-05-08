@@ -1,6 +1,46 @@
 {
     "NodeList": [
         {
+            "NodePh": "156",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#ListForm > DIV:nth-of-type(2) > DIV:nth-of-type(1) > DIV:nth-of-type(2) > FONT:nth-of-type(1) > DIV:nth-of-type(1) > SPAN:nth-of-type(3)'",
+                    "EP_CONTROL_TAG_NAME": "'SPAN'",
+                    "EP_CONTROL_TITLE": "'理财管理'",
+                    "EP_CONTROL_URL": "",
+                    "EP_CONTROL_WINDOW_TITLE": "'双录系统-录音、录像、录屏 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200508150725948.jpeg",
+                    "mouse_x_pos": "18",
+                    "mouse_y_pos": "4"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "866",
+            "NodePy": "1168",
+            "NodeSubType": "EnumWidget_IE_MouseClick",
+            "NodeTag": "鼠标点击"
+        },
+        {
             "NodePh": "66",
             "NodePro": {
                 "inpar_Order": "",
@@ -17,8 +57,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "951",
-            "NodePy": "266",
+            "NodePx": "1866",
+            "NodePy": "957",
             "NodeSubType": "EnumWidget_VarBVGet",
             "NodeTag": "lv_totalResult"
         },
@@ -34,8 +74,8 @@
                 }
             },
             "NodePw": "218",
-            "NodePx": "1133",
-            "NodePy": "100",
+            "NodePx": "2346",
+            "NodePy": "728",
             "NodeSubType": "EnumWidget_Win_IPrint",
             "NodeTag": "输出"
         },
@@ -55,8 +95,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "273",
-            "NodePy": "300",
+            "NodePx": "835",
+            "NodePy": "728",
             "NodeSubType": "EnumWidget_Code_Custom",
             "NodeTag": "代码块"
         },
@@ -76,29 +116,12 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "833",
-            "NodePy": "220",
+            "NodePx": "2026",
+            "NodePy": "708",
             "NodeSubType": "EnumWidget_Code_Custom",
             "NodeTag": "代码块"
         },
         {
-            "NodePh": "143",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Win_IPrint",
-                "EP_EnumWidget_VALUE": "816",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "218",
-            "NodePx": "1313",
-            "NodePy": "160",
-            "NodeSubType": "EnumWidget_Win_IPrint",
-            "NodeTag": "输出"
-        },
-        {
             "NodePh": "66",
             "NodePro": {
                 "inpar_Order": "",
@@ -115,30 +138,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "993",
-            "NodePy": "420",
-            "NodeSubType": "EnumWidget_VarBVSet",
-            "NodeTag": "lv_pageResult"
-        },
-        {
-            "NodePh": "66",
-            "NodePro": {
-                "inpar_Order": "",
-                "inpar_filetype": "",
-                "inpar_helpdesc": "",
-                "inpar_init": "",
-                "inpar_required": "0",
-                "inputpar": "",
-                "vardef": "",
-                "vardesc": "",
-                "varname": "lv_pageResult",
-                "varpasstype": "1",
-                "varrobot": "",
-                "vartype": "1"
-            },
-            "NodePw": "198",
-            "NodePx": "1344",
-            "NodePy": "326",
+            "NodePx": "1850",
+            "NodePy": "891",
             "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "lv_pageResult"
         },
@@ -177,8 +178,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "633",
-            "NodePy": "240",
+            "NodePx": "1506",
+            "NodePy": "728",
             "NodeSubType": "EnumWidget_IE_GetTable",
             "NodeTag": "拾取表格(web)"
         },
@@ -187,8 +188,8 @@
             "NodePro": {
             },
             "NodePw": "242",
-            "NodePx": "493",
-            "NodePy": "220",
+            "NodePx": "1164",
+            "NodePy": "728",
             "NodeSubType": "EnumWidget_Syntax_while",
             "NodeTag": "While循环"
         },
@@ -204,8 +205,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "173",
-            "NodePy": "140",
+            "NodePx": "506",
+            "NodePy": "728",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }
