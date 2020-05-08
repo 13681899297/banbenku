@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:16:59
+# 编译日期：2020-05-08 15:18:28
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -47,7 +47,7 @@ class YeHongJun_KaoShi:
             lv_pageResult = iie.get_ie_table(title=r'理财管理',selector=r'#boxTable',waitfor=10)
         # 表格过滤
         self.__logger.debug('Flow:GetData,StepNodeTag:0815121659699,Note:')
-        tvar0815121659699 = lv_totalResult[(lv_totalResult['产品代码'].str.startswith(pv_key))]
+        tvar0815121659699 = lv_pageResult[(lv_pageResult['产品代码'].str.startswith(pv_key))]
         # 输出
         self.__logger.debug('Flow:GetData,StepNodeTag:08151333829105,Note:')
         rpa_str.iprints(tvar0815121659699)
