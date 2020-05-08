@@ -1,6 +1,65 @@
 {
     "NodeList": [
         {
+            "NodePh": "196",
+            "NodePro": {
+            },
+            "NodePw": "218",
+            "NodePx": "1036",
+            "NodePy": "392",
+            "NodeSubType": "EnumWidget_Gen_SetText",
+            "NodeTag": "设置文本"
+        },
+        {
+            "NodePh": "216",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Key_HotKey",
+                "EP_EnumWidget_VALUE": "802",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0"
+                },
+                "EP_WINDOW": {
+                    "EP_WINDOW_TITLE": "",
+                    "EP_WINDOW_TITLE_Check": "false"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "736",
+            "NodePy": "392",
+            "NodeSubType": "EnumWidget_Key_HotKey",
+            "NodeTag": "热键输入"
+        },
+        {
+            "NodePh": "66",
+            "NodePro": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "'http://122.112.200.222:9080/login.action'",
+                "vardesc": "",
+                "varname": "url",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodePw": "198",
+            "NodePx": "136",
+            "NodePy": "552",
+            "NodeSubType": "EnumWidget_VarBVGet",
+            "NodeTag": "url"
+        },
+        {
             "NodePh": "253",
             "NodePro": {
                 "EP_CONTROL": {
@@ -16,8 +75,8 @@
                 }
             },
             "NodePw": "290",
-            "NodePx": "438",
-            "NodePy": "249",
+            "NodePx": "396",
+            "NodePy": "412",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "打开浏览器"
         },
@@ -33,8 +92,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "178",
-            "NodePy": "249",
+            "NodePx": "156",
+            "NodePy": "412",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }

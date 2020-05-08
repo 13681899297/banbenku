@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 14:37:33
+# 编译日期：2020-05-08 14:40:55
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -9,6 +9,7 @@ import getopt
 from sys import argv
 import sys
 import ubpa.ibrowse as ibrowse
+import ubpa.ikeyboard as ikeyboard
 
 class YeHongJun_KaoShi:
      
@@ -29,11 +30,17 @@ class YeHongJun_KaoShi:
             self.input_arg = kwargs['input_arg']
             self.input_arg = self.input_arg.replace("\\","/")
       
-    def Main(self):
+    def LoginCSM(self):
         url='http://122.112.200.222:9080/login.action'
         #打开浏览器
-        self.__logger.debug('Flow:Main,StepNodeTag:081436571984,Note:')
+        self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814383211710,Note:打开CSM')
         ibrowse.open_browser(browser_type='ie',url=url)
+        # 热键输入
+        self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814400306515,Note:最大化窗口')
+        ikeyboard.key_send_cs(text='#{UP}',waitfor=10)
+      
+    def Main(self):
+        pass
  
 if __name__ == '__main__':
     robot_no = ''
@@ -57,4 +64,4 @@ if __name__ == '__main__':
         elif opt in ("-i", "--input"):
             input_arg = arg
     pro = YeHongJun_KaoShi(robot_no=robot_no,proc_no=proc_no,job_no=job_no,input_arg=input_arg)
-    pro.Main()
+    pro.LoginCSM()

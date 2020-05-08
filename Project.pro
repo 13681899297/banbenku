@@ -6,7 +6,7 @@
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"LoginCSM\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/05/08 14:38:53",
+        "ProChange": "2020/05/08 14:40:55",
         "ProCreate": "2020/05/08 14:28:04",
         "ProDesc": "",
         "ProImports": "",
@@ -36,10 +36,17 @@
             "sop": "Close",
             "spv": [
                 {
-                    "vardef": "",
+                    "inpar_Order": "",
+                    "inpar_filetype": "",
+                    "inpar_helpdesc": "",
+                    "inpar_init": "",
+                    "inpar_required": "0",
+                    "inputpar": "",
+                    "vardef": "'http://122.112.200.222:9080/login.action'",
                     "vardesc": "",
-                    "varname": "url2",
+                    "varname": "url",
                     "varpasstype": "1",
+                    "varrobot": "",
                     "vartype": "1"
                 }
             ],
