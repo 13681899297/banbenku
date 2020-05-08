@@ -82,7 +82,7 @@
             "NodePanelData": {
                 "InputProperty": [
                     {
-                        "0": "typeof(lv_pageResult)"
+                        "0": "type(lv_pageResult)"
                     }
                 ],
                 "PubProperty": {
@@ -104,8 +104,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "1088",
-                "FNodePy": "180",
+                "FNodePx": "678",
+                "FNodePy": "378",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -163,8 +163,8 @@
                 "vartype": "1"
             },
             "NodeUI": {
-                "FNodePx": "908",
-                "FNodePy": "338",
+                "FNodePx": "498",
+                "FNodePy": "536",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -216,8 +216,8 @@
                 "vartype": "1"
             },
             "NodeUI": {
-                "FNodePx": "1239",
-                "FNodePy": "364",
+                "FNodePx": "829",
+                "FNodePy": "562",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -277,8 +277,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "668",
-                "FNodePy": "215",
+                "FNodePx": "258",
+                "FNodePy": "413",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -317,8 +317,8 @@
             "NodeProperty": {
             },
             "NodeUI": {
-                "FNodePx": "348",
-                "FNodePy": "178",
+                "FNodePx": "-62",
+                "FNodePy": "376",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -367,8 +367,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "68",
-                "FNodePy": "178",
+                "FNodePx": "-342",
+                "FNodePy": "376",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -385,7 +385,7 @@
     ],
     "OpType": "0",
     "SeqTag": "GetData_bp",
-    "ViewCenterPx": "5123",
-    "ViewCenterPy": "5134",
+    "ViewCenterPx": "5533",
+    "ViewCenterPy": "4936",
     "ViewScaling": "1"
 }

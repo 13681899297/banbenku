@@ -12,8 +12,8 @@
                 }
             },
             "NodePw": "218",
-            "NodePx": "1188",
-            "NodePy": "280",
+            "NodePx": "1120",
+            "NodePy": "478",
             "NodeSubType": "EnumWidget_Win_IPrint",
             "NodeTag": "输出"
         },
@@ -34,8 +34,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "1008",
-            "NodePy": "438",
+            "NodePx": "940",
+            "NodePy": "636",
             "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "lv_pageResult"
         },
@@ -56,8 +56,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "1339",
-            "NodePy": "464",
+            "NodePx": "1271",
+            "NodePy": "662",
             "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "lv_pageResult"
         },
@@ -96,8 +96,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "768",
-            "NodePy": "315",
+            "NodePx": "700",
+            "NodePy": "513",
             "NodeSubType": "EnumWidget_IE_GetTable",
             "NodeTag": "拾取表格(web)"
         },
@@ -106,8 +106,8 @@
             "NodePro": {
             },
             "NodePw": "242",
-            "NodePx": "448",
-            "NodePy": "278",
+            "NodePx": "380",
+            "NodePy": "476",
             "NodeSubType": "EnumWidget_Syntax_while",
             "NodeTag": "While循环"
         },
@@ -123,8 +123,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "168",
-            "NodePy": "278",
+            "NodePx": "100",
+            "NodePy": "476",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }
