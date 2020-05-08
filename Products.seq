@@ -1,0 +1,215 @@
+{
+    "LineList": [
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "0814464601036_l_flow_0",
+                "Px": "5385",
+                "Py": "5164"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "0814463326434_r_flow_0",
+                "Px": "5310",
+                "Py": "5104"
+            },
+            "LineTag": "0814464377135",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "0814463326434_l_flow_0",
+                "Px": "5125",
+                "Py": "5104"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "0814460501032_r_flow_0",
+                "Px": "4910",
+                "Py": "5064"
+            },
+            "LineTag": "0814462773833",
+            "LineType": "2"
+        }
+    ],
+    "NodeList": [
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "34",
+                    "mouse_y_pos": "10",
+                    "selcomment": "0",
+                    "seltype": "Web",
+                    "snapshot_preview": "/screenshots/snapshot_20200508144657924.jpeg"
+                }
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#MenuContext > TABLE:nth-of-type(1) > TBODY:nth-of-type(1) > TR:nth-of-type(1) > TD:nth-of-type(2) > LI:nth-of-type(5) > A:nth-of-type(1)'",
+                    "EP_CONTROL_TAG_NAME": "'A'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'http://122.112.200.222:9080/login.action'",
+                    "EP_CONTROL_WINDOW_TITLE": "'双录系统-录音、录像、录屏 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200508144657924.jpeg",
+                    "mouse_x_pos": "34",
+                    "mouse_y_pos": "10"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "948",
+                "FNodePy": "338",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    }
+                ],
+                "NodePx": "5378",
+                "NodePy": "5088",
+                "NodeSubType": "EnumWidget_IE_MouseClick",
+                "NodeTag": "0814464601036",
+                "NodeTitle": "鼠标点击"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "37",
+                    "mouse_y_pos": "20",
+                    "selcomment": "0",
+                    "seltype": "Web",
+                    "snapshot_preview": "/screenshots/snapshot_20200508144641322.jpeg"
+                }
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#frame-nav > UL:nth-of-type(1) > LI:nth-of-type(1) > A:nth-of-type(1)'",
+                    "EP_CONTROL_TAG_NAME": "'A'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'http://122.112.200.222:9080/login.action'",
+                    "EP_CONTROL_WINDOW_TITLE": "'双录系统-录音、录像、录屏 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_MouseClick",
+                "EP_EnumWidget_VALUE": "301",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_RUN_MODE": "false",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_COMBOX_CONTINUEONERROR": "'break'",
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_MOUSE_CLICK_TIMES": "1",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200508144641322.jpeg",
+                    "mouse_x_pos": "37",
+                    "mouse_y_pos": "20"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "688",
+                "FNodePy": "278",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    }
+                ],
+                "NodePx": "5118",
+                "NodePy": "5028",
+                "NodeSubType": "EnumWidget_IE_MouseClick",
+                "NodeTag": "0814463326434",
+                "NodeTitle": "鼠标点击"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                }
+            },
+            "NodeProperty": {
+                "EP_EnumWidget_NAME": "EnumWidget_Begin",
+                "EP_EnumWidget_VALUE": "10",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "288",
+                "FNodePy": "238",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "r_flow_0"
+                    }
+                ],
+                "NodePx": "4718",
+                "NodePy": "4988",
+                "NodeSubType": "EnumWidget_Begin",
+                "NodeTag": "0814460501032",
+                "NodeTitle": "开始"
+            }
+        }
+    ],
+    "OpType": "0",
+    "SeqTag": "Products_bp",
+    "ViewCenterPx": "5123",
+    "ViewCenterPy": "5134",
+    "ViewScaling": "1"
+}

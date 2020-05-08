@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 14:42:46
+# 编译日期：2020-05-08 14:47:02
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -47,9 +47,22 @@ class YeHongJun_KaoShi:
         # 设置文本
         self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814423516022,Note:')
         iie.set_text(url=r'http://122.112.200.222:9080/login.action',selector=r'#loginWrap > UL:nth-of-type(1) > LI:nth-of-type(2) > INPUT:nth-of-type(1)',text=password,waitfor=10)
+        # 鼠标点击
+        self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814432656329,Note:')
+        iie.do_click_pos(win_title=r'双录系统-录音、录像、录屏 - Internet Explorer',url=r'http://122.112.200.222:9080/login.action',selector=r'#loginWrap > UL:nth-of-type(1) > LI:nth-of-type(2) > INPUT:nth-of-type(2)',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
+      
+    def Products(self):
+        # 鼠标点击
+        self.__logger.debug('Flow:Products,StepNodeTag:0814463326434,Note:')
+        iie.do_click_pos(win_title=r'双录系统-录音、录像、录屏 - Internet Explorer',url=r'http://122.112.200.222:9080/login.action',selector=r'#frame-nav > UL:nth-of-type(1) > LI:nth-of-type(1) > A:nth-of-type(1)',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
+        # 鼠标点击
+        self.__logger.debug('Flow:Products,StepNodeTag:0814464601036,Note:')
+        iie.do_click_pos(win_title=r'双录系统-录音、录像、录屏 - Internet Explorer',url=r'http://122.112.200.222:9080/login.action',selector=r'#MenuContext > TABLE:nth-of-type(1) > TBODY:nth-of-type(1) > TR:nth-of-type(1) > TD:nth-of-type(2) > LI:nth-of-type(5) > A:nth-of-type(1)',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
       
     def Main(self):
-        pass
+        # 子流程:LoginCSM
+        self.__logger.debug('Flow:Main,StepNodeTag:0814440592931,Note:登录到CSM系统')
+        (temptemp)=self.LoginCSM()
  
 if __name__ == '__main__':
     robot_no = ''
@@ -73,6 +86,6 @@ if __name__ == '__main__':
         elif opt in ("-i", "--input"):
             input_arg = arg
     pro = YeHongJun_KaoShi(robot_no=robot_no,proc_no=proc_no,job_no=job_no,input_arg=input_arg)
-    pro.LoginCSM()
+    pro.Products()
     ___logger = ILog(__file__)
     ___logger.debug('Class:Main,ProTag:Quit,Note:Exit')

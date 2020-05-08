@@ -1,7 +1,115 @@
 {
     "LineList": [
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "0814440592931_l_flow_0",
+                "Px": "4805",
+                "Py": "4924"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "081428048541_r_flow_0",
+                "Px": "4710",
+                "Py": "4924"
+            },
+            "LineTag": "0814440076630",
+            "LineType": "2"
+        }
     ],
     "NodeList": [
+        {
+            "NodePanelData": {
+                "FlowProperty": {
+                    "group": "",
+                    "num": "1",
+                    "sdc": "",
+                    "seq": "LoginCSM",
+                    "sop": "Close",
+                    "spv": [
+                        {
+                            "inpar_Order": "",
+                            "inpar_filetype": "",
+                            "inpar_helpdesc": "",
+                            "inpar_init": "",
+                            "inpar_required": "0",
+                            "inputpar": "",
+                            "vardef": "'TVlUqIwIyp0eXB=='",
+                            "vardesc": "",
+                            "varname": "password",
+                            "varpasstype": "1",
+                            "varrobot": "",
+                            "vartype": "2"
+                        },
+                        {
+                            "inpar_Order": "",
+                            "inpar_filetype": "",
+                            "inpar_helpdesc": "",
+                            "inpar_init": "",
+                            "inpar_required": "0",
+                            "inputpar": "",
+                            "vardef": "'ceshi001'",
+                            "vardesc": "",
+                            "varname": "userName",
+                            "varpasstype": "1",
+                            "varrobot": "",
+                            "vartype": "1"
+                        },
+                        {
+                            "inpar_Order": "",
+                            "inpar_filetype": "",
+                            "inpar_helpdesc": "",
+                            "inpar_init": "",
+                            "inpar_required": "0",
+                            "inputpar": "",
+                            "vardef": "'http://122.112.200.222:9080/login.action'",
+                            "vardesc": "",
+                            "varname": "url",
+                            "varpasstype": "1",
+                            "varrobot": "",
+                            "vartype": "1"
+                        }
+                    ],
+                    "spy": "Main"
+                },
+                "InputProperty": [
+                ],
+                "PubProperty": {
+                    "NodeRemark": "登录到CSM系统",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                }
+            },
+            "NodeProperty": {
+            },
+            "NodeUI": {
+                "FNodePx": "363",
+                "FNodePy": "92",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_ret_0"
+                    }
+                ],
+                "NodePx": "4798",
+                "NodePy": "4848",
+                "NodeSubType": "EnumWidget_Program_subflow",
+                "NodeTag": "0814440592931",
+                "NodeTitle": "LoginCSM"
+            }
+        },
         {
             "NodePanelData": {
                 "InputProperty": [
@@ -25,16 +133,16 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "163",
-                "FNodePy": "132",
+                "FNodePx": "83",
+                "FNodePy": "92",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
                         "Pidx": "r_flow_0"
                     }
                 ],
-                "NodePx": "4598",
-                "NodePy": "4888",
+                "NodePx": "4518",
+                "NodePy": "4848",
                 "NodeSubType": "EnumWidget_Begin",
                 "NodeTag": "081428048541",
                 "NodeTitle": "开始"
