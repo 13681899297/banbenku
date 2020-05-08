@@ -1,0 +1,77 @@
+{
+    "NodeList": [
+        {
+            "NodePh": "143",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Win_IPrint",
+                "EP_EnumWidget_VALUE": "816",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "218",
+            "NodePx": "928",
+            "NodePy": "237",
+            "NodeSubType": "EnumWidget_Win_IPrint",
+            "NodeTag": "输出"
+        },
+        {
+            "NodePh": "173",
+            "NodePro": {
+                "EP_CONTROL": {
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "238",
+            "NodePx": "608",
+            "NodePy": "237",
+            "NodeSubType": "EnumWidget_Config_Begin",
+            "NodeTag": "获取环境变量"
+        },
+        {
+            "NodePh": "213",
+            "NodePro": {
+                "EP_CONTROL": {
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_Config_Begin",
+                "EP_EnumWidget_VALUE": "5000",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "256",
+            "NodePx": "948",
+            "NodePy": "237",
+            "NodeSubType": "EnumWidget_Config_Begin",
+            "NodeTag": "创建excel"
+        },
+        {
+            "NodePh": "103",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Begin",
+                "EP_EnumWidget_VALUE": "10",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "388",
+            "NodePy": "237",
+            "NodeSubType": "EnumWidget_Begin",
+            "NodeTag": "开始"
+        }
+    ],
+    "SeqTag": "ExportExcel_bp"
+}

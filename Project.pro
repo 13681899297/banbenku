@@ -4,9 +4,9 @@
     "MainSeq": {
         "seq": "Main"
     },
-    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"LoginCSM\"\n    },\n    {\n        \"seq\": \"ProductsPage\"\n    },\n    {\n        \"seq\": \"GetData\"\n    }\n]\n",
+    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"LoginCSM\"\n    },\n    {\n        \"seq\": \"ProductsPage\"\n    },\n    {\n        \"seq\": \"GetData\"\n    },\n    {\n        \"seq\": \"ExportExcel\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/05/08 15:22:03",
+        "ProChange": "2020/05/08 15:26:21",
         "ProCreate": "2020/05/08 14:28:04",
         "ProDesc": "",
         "ProImports": "",
@@ -129,6 +129,14 @@
                     "vartype": "1"
                 }
             ],
+            "spy": "Main"
+        },
+        {
+            "group": "",
+            "num": "1",
+            "sdc": "",
+            "seq": "ExportExcel",
+            "sop": "Close",
             "spy": "Main"
         }
     ]
