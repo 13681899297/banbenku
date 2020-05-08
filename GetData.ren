@@ -1,10 +1,32 @@
 {
     "NodeList": [
         {
+            "NodePh": "66",
+            "NodePro": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "",
+                "vardesc": "",
+                "varname": "lv_totalResult",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodePw": "198",
+            "NodePx": "2138",
+            "NodePy": "256",
+            "NodeSubType": "EnumWidget_VarBVGet",
+            "NodeTag": "lv_totalResult"
+        },
+        {
             "NodePh": "103",
             "NodePro": {
                 "EP_CONTROL": {
-                    "EP_CONTROL_CODE": "",
+                    "EP_CONTROL_CODE": "lv_totalResult = lv_totalResult.append(lv_pageResult)",
                     "EP_CONTROL_IMPORT": ""
                 },
                 "EP_EnumWidget_NAME": "EnumWidget_Code_Custom",
@@ -16,32 +38,10 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1400",
+            "NodePx": "1380",
             "NodePy": "380",
             "NodeSubType": "EnumWidget_Code_Custom",
             "NodeTag": "代码块"
-        },
-        {
-            "NodePh": "66",
-            "NodePro": {
-                "inpar_Order": "",
-                "inpar_filetype": "",
-                "inpar_helpdesc": "",
-                "inpar_init": "",
-                "inpar_required": "0",
-                "inputpar": "",
-                "vardef": "",
-                "vardesc": "",
-                "varname": "lv_pageResult",
-                "varpasstype": "1",
-                "varrobot": "",
-                "vartype": "1"
-            },
-            "NodePw": "198",
-            "NodePx": "1978",
-            "NodePy": "346",
-            "NodeSubType": "EnumWidget_VarBVGet",
-            "NodeTag": "lv_pageResult"
         },
         {
             "NodePh": "143",
@@ -213,8 +213,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1100",
-            "NodePy": "420",
+            "NodePx": "1060",
+            "NodePy": "419",
             "NodeSubType": "EnumWidget_IE_GetTable",
             "NodeTag": "拾取表格(web)"
         },
