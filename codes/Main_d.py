@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:37:48
+# 编译日期：2020-05-08 15:43:16
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -58,22 +58,22 @@ class YeHongJun_KaoShi:
         self.__logger.debug('Flow:GetData,StepNodeTag:0815030114185,Note:初始化lv_totalResult')
         lv_totalResult = pd.DataFrame()
         # For循环
-        self.__logger.debug('Flow:GetData,StepNodeTag:0815093966295,Note:')
+        self.__logger.debug('Flow:GetData,StepNodeTag:0815093966295,Note:循环获取数据')
         for i in range(pv_maxPageNumber):
             # IE拾取表格(web)
             self.__logger.debug('Flow:GetData,StepNodeTag:0814522186952,Note:')
             lv_pageResult = iie.get_ie_table(title=r'理财管理',selector=r'#boxTable',waitfor=10)
             # 代码块
-            self.__logger.debug('Flow:GetData,StepNodeTag:08152035948114,Note:')
+            self.__logger.debug('Flow:GetData,StepNodeTag:08152035948114,Note:合并结果')
             lv_totalResult = lv_totalResult.append(lv_pageResult)
             # 鼠标点击
-            self.__logger.debug('Flow:GetData,StepNodeTag:0815065762293,Note:')
+            self.__logger.debug('Flow:GetData,StepNodeTag:0815065762293,Note:翻页')
             iie.do_click_pos(win_title=r'双录系统-录音、录像、录屏 - Internet Explorer',title=r'理财管理',selector=r'#ListForm > DIV:nth-of-type(2) > DIV:nth-of-type(1) > DIV:nth-of-type(2) > FONT:nth-of-type(1) > DIV:nth-of-type(1) > SPAN:nth-of-type(3)',button=r'left',curson=r'center',times=1,run_mode=r'ctrl',continue_on_error=r'break',waitfor=10)
         # 表格过滤
-        self.__logger.debug('Flow:GetData,StepNodeTag:0815121659699,Note:')
+        self.__logger.debug('Flow:GetData,StepNodeTag:0815121659699,Note:筛选出目标结果')
         tvar0815121659699 = lv_totalResult[(lv_totalResult['产品代码'].str.startswith(pv_key))]
         # Return返回
-        self.__logger.debug('Flow:GetData,StepNodeTag:08152243722120,Note:')
+        self.__logger.debug('Flow:GetData,StepNodeTag:08152243722120,Note:返回结果')
         return tvar0815121659699
       
     def LoginCSM(self):
@@ -87,13 +87,13 @@ class YeHongJun_KaoShi:
         self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814400306515,Note:最大化窗口')
         ikeyboard.key_send_cs(text='#{UP}',waitfor=10)
         # 设置文本
-        self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814403727417,Note:')
+        self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814403727417,Note:输入用户名')
         iie.set_text(url=r'http://122.112.200.222:9080/login.action',selector=r'#loginWrap > UL:nth-of-type(1) > LI:nth-of-type(1) > INPUT:nth-of-type(1)',text=userName,waitfor=10)
         # 设置文本
-        self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814423516022,Note:')
+        self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814423516022,Note:输入密码')
         iie.set_text(url=r'http://122.112.200.222:9080/login.action',selector=r'#loginWrap > UL:nth-of-type(1) > LI:nth-of-type(2) > INPUT:nth-of-type(1)',text=password,waitfor=10)
         # 鼠标点击
-        self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814432656329,Note:')
+        self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814432656329,Note:点击登录')
         iie.do_click_pos(win_title=r'双录系统-录音、录像、录屏 - Internet Explorer',url=r'http://122.112.200.222:9080/login.action',selector=r'#loginWrap > UL:nth-of-type(1) > LI:nth-of-type(2) > INPUT:nth-of-type(2)',button=r'left',curson=r'center',times=1,run_mode=r'unctrl',continue_on_error=r'break',waitfor=10)
       
     def ProductsPage(self):
@@ -109,13 +109,13 @@ class YeHongJun_KaoShi:
         self.__logger.debug('Flow:Main,StepNodeTag:0814440592931,Note:登录到CSM系统')
         (temptemp)=self.LoginCSM()
         # 子流程:ProductsPage
-        self.__logger.debug('Flow:Main,StepNodeTag:0814473839038,Note:')
+        self.__logger.debug('Flow:Main,StepNodeTag:0814473839038,Note:定位到产品页')
         (temptemp)=self.ProductsPage()
         # 子流程:GetData
-        self.__logger.debug('Flow:Main,StepNodeTag:08151445709108,Note:')
+        self.__logger.debug('Flow:Main,StepNodeTag:08151445709108,Note:获取数据')
         (tvar08151445709108)=self.GetData(pv_maxPageNumber=7,pv_key='i-Search-05')
         # 子流程:ExportExcel
-        self.__logger.debug('Flow:Main,StepNodeTag:08153531919158,Note:')
+        self.__logger.debug('Flow:Main,StepNodeTag:08153531919158,Note:保存文件')
         (temptemp)=self.ExportExcel(pv_df=tvar08151445709108)
  
 if __name__ == '__main__':
