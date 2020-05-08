@@ -86,8 +86,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "948",
-                "FNodePy": "338",
+                "FNodePx": "979",
+                "FNodePy": "339",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -150,8 +150,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "688",
-                "FNodePy": "278",
+                "FNodePx": "719",
+                "FNodePy": "279",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -191,8 +191,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "288",
-                "FNodePy": "238",
+                "FNodePx": "319",
+                "FNodePy": "239",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -208,8 +208,8 @@
         }
     ],
     "OpType": "0",
-    "SeqTag": "Products_bp",
-    "ViewCenterPx": "5123",
-    "ViewCenterPy": "5134",
+    "SeqTag": "ProductsPage_bp",
+    "ViewCenterPx": "5092",
+    "ViewCenterPy": "5133",
     "ViewScaling": "1"
 }

@@ -4,9 +4,9 @@
     "MainSeq": {
         "seq": "Main"
     },
-    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"LoginCSM\"\n    },\n    {\n        \"seq\": \"Products\"\n    }\n]\n",
+    "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"LoginCSM\"\n    },\n    {\n        \"seq\": \"ProductsPage\"\n    },\n    {\n        \"seq\": \"GetData\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/05/08 14:47:02",
+        "ProChange": "2020/05/08 14:51:22",
         "ProCreate": "2020/05/08 14:28:04",
         "ProDesc": "",
         "ProImports": "",
@@ -84,8 +84,23 @@
             "group": "",
             "num": "1",
             "sdc": "",
-            "seq": "Products",
+            "seq": "ProductsPage",
             "sop": "Close",
+            "spy": "Main"
+        },
+        {
+            "group": "",
+            "num": "1",
+            "sdc": "",
+            "seq": "GetData",
+            "sop": "Close",
+            "spr": [
+                {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "pv_key"
+                }
+            ],
             "spy": "Main"
         }
     ]
