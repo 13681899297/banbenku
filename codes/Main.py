@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:27:57
+# 编译日期：2020-05-08 15:29:52
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -37,7 +37,7 @@ class YeHongJun_KaoShi:
     def ExportExcel(self):
         #获取环境变量
         self.__logger.debug('Flow:ExportExcel,StepNodeTag:08152548128127,Note:')
-        tvar08152548128127 = rpa_environment.get_sys_variable(var=Desktop)
+        tvar08152548128127 = rpa_environment.get_sys_variable(var='USERPROFILE')
         # 输出
         self.__logger.debug('Flow:ExportExcel,StepNodeTag:08152616815133,Note:')
         rpa_str.iprints(tvar08152548128127)

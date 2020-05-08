@@ -110,7 +110,7 @@
             "NodePanelData": {
                 "InputProperty": [
                     {
-                        "var": "Desktop"
+                        "var": "'USERPROFILE'"
                     }
                 ],
                 "PubProperty": {
