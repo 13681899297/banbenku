@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:00:23
+# 编译日期：2020-05-08 15:01:57
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -33,7 +33,7 @@ class YeHongJun_KaoShi:
             self.input_arg = self.input_arg.replace("\\","/")
       
     def GetData(self,pv_key=None):
-        lv_totalResult=pandas.DataFrame()
+        lv_totalResult=pd.DataFrame()
         lv_pageResult=None
         # While循环
         self.__logger.debug('Flow:GetData,StepNodeTag:0814504953647,Note:')
