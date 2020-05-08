@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 15:10:22
+# 编译日期：2020-05-08 15:13:53
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -33,7 +33,7 @@ class YeHongJun_KaoShi:
             self.input_arg = kwargs['input_arg']
             self.input_arg = self.input_arg.replace("\\","/")
       
-    def GetData(self,pv_maxPageNumber=7,pv_key=None):
+    def GetData(self,pv_maxPageNumber=7,pv_key='i-Search-05'):
         lv_totalResult=None
         lv_pageResult=None
         # 代码块
@@ -46,14 +46,18 @@ class YeHongJun_KaoShi:
             self.__logger.debug('Flow:GetData,StepNodeTag:0814522186952,Note:')
             lv_pageResult = iie.get_ie_table(title=r'理财管理',selector=r'#boxTable',waitfor=10)
             # 代码块
-            self.__logger.debug('Flow:GetData,StepNodeTag:0815024293883,Note:')
+            self.__logger.debug('Flow:GetData,StepNodeTag:0815024293883,Note:将新获取的数据放入lv_totalResult
+            ')
             lv_totalResult = lv_totalResult.append(lv_pageResult,ignore_index=True)
-            # 输出
-            self.__logger.debug('Flow:GetData,StepNodeTag:0815055220088,Note:')
-            rpa_str.iprints(lv_totalResult)
             # 鼠标点击
             self.__logger.debug('Flow:GetData,StepNodeTag:0815065762293,Note:')
             iie.do_click_pos(win_title=r'双录系统-录音、录像、录屏 - Internet Explorer',title=r'理财管理',selector=r'#ListForm > DIV:nth-of-type(2) > DIV:nth-of-type(1) > DIV:nth-of-type(2) > FONT:nth-of-type(1) > DIV:nth-of-type(1) > SPAN:nth-of-type(3)',button=r'left',curson=r'center',times=1,run_mode=r'ctrl',continue_on_error=r'break',waitfor=10)
+        # 表格过滤
+        self.__logger.debug('Flow:GetData,StepNodeTag:0815121659699,Note:')
+        tvar0815121659699 = lv_totalResult[(lv_totalResult['产品代码'].str.startswith(pv_key))]
+        # 输出
+        self.__logger.debug('Flow:GetData,StepNodeTag:08151333829105,Note:')
+        rpa_str.iprints(tvar0815121659699)
       
     def LoginCSM(self):
         password='TVlUqIwIyp0eXB=='

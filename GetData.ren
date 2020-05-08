@@ -1,12 +1,76 @@
 {
     "NodeList": [
         {
+            "NodePh": "143",
+            "NodePro": {
+                "EP_EnumWidget_NAME": "EnumWidget_Win_IPrint",
+                "EP_EnumWidget_VALUE": "816",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                }
+            },
+            "NodePw": "218",
+            "NodePx": "2500",
+            "NodePy": "317",
+            "NodeSubType": "EnumWidget_Win_IPrint",
+            "NodeTag": "输出"
+        },
+        {
+            "NodePh": "66",
+            "NodePro": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "",
+                "vardesc": "",
+                "varname": "lv_totalResult",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodePw": "198",
+            "NodePx": "1800",
+            "NodePy": "577",
+            "NodeSubType": "EnumWidget_VarBVGet",
+            "NodeTag": "lv_totalResult"
+        },
+        {
+            "NodePh": "163",
+            "NodePro": {
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": ""
+                },
+                "EP_INPUT": [
+                    {
+                        "EP_INPUT_FILTER_TYPE_SELECT": "&"
+                    },
+                    {
+                        "EP_INPUT_FILTER_ITEM_NAME": "'产品代码'",
+                        "EP_INPUT_FILTER_ITEM_SYMBOL": ".str.startswith(%1)",
+                        "EP_INPUT_FILTER_ITEM_VALUE": "pv_key"
+                    }
+                ]
+            },
+            "NodePw": "254",
+            "NodePx": "2080",
+            "NodePy": "277",
+            "NodeSubType": "EnumWidget_TableFilter",
+            "NodeTag": "表格过滤"
+        },
+        {
             "NodePh": "193",
             "NodePro": {
             },
             "NodePw": "242",
-            "NodePx": "933",
-            "NodePy": "189",
+            "NodePx": "758",
+            "NodePy": "337",
             "NodeSubType": "EnumWidget_Syntax_for",
             "NodeTag": "For循环"
         },
@@ -45,49 +109,10 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "633",
-            "NodePy": "669",
+            "NodePx": "1720",
+            "NodePy": "397",
             "NodeSubType": "EnumWidget_IE_MouseClick",
             "NodeTag": "鼠标点击"
-        },
-        {
-            "NodePh": "66",
-            "NodePro": {
-                "inpar_Order": "",
-                "inpar_filetype": "",
-                "inpar_helpdesc": "",
-                "inpar_init": "",
-                "inpar_required": "0",
-                "inputpar": "",
-                "vardef": "",
-                "vardesc": "",
-                "varname": "lv_totalResult",
-                "varpasstype": "1",
-                "varrobot": "",
-                "vartype": "1"
-            },
-            "NodePw": "198",
-            "NodePx": "1633",
-            "NodePy": "458",
-            "NodeSubType": "EnumWidget_VarBVGet",
-            "NodeTag": "lv_totalResult"
-        },
-        {
-            "NodePh": "143",
-            "NodePro": {
-                "EP_EnumWidget_NAME": "EnumWidget_Win_IPrint",
-                "EP_EnumWidget_VALUE": "816",
-                "EP_Gen": {
-                    "EP_Gen_AFTERDELAY": "",
-                    "EP_Gen_BEFOREDELAY": "",
-                    "EP_Gen_NOTE": ""
-                }
-            },
-            "NodePw": "218",
-            "NodePx": "2113",
-            "NodePy": "229",
-            "NodeSubType": "EnumWidget_Win_IPrint",
-            "NodeTag": "输出"
         },
         {
             "NodePh": "103",
@@ -105,8 +130,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "593",
-            "NodePy": "229",
+            "NodePx": "429",
+            "NodePy": "337",
             "NodeSubType": "EnumWidget_Code_Custom",
             "NodeTag": "代码块"
         },
@@ -126,8 +151,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1793",
-            "NodePy": "209",
+            "NodePx": "1440",
+            "NodePy": "417",
             "NodeSubType": "EnumWidget_Code_Custom",
             "NodeTag": "代码块"
         },
@@ -148,8 +173,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "1617",
-            "NodePy": "392",
+            "NodePx": "1444",
+            "NodePy": "530",
             "NodeSubType": "EnumWidget_VarBVSet",
             "NodeTag": "lv_pageResult"
         },
@@ -188,8 +213,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "1273",
-            "NodePy": "229",
+            "NodePx": "1115",
+            "NodePy": "427",
             "NodeSubType": "EnumWidget_IE_GetTable",
             "NodeTag": "拾取表格(web)"
         },
@@ -205,8 +230,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "213",
-            "NodePy": "129",
+            "NodePx": "100",
+            "NodePy": "337",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }
