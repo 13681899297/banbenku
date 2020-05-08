@@ -1,6 +1,28 @@
 {
     "NodeList": [
         {
+            "NodePh": "66",
+            "NodePro": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "",
+                "vardesc": "",
+                "varname": "lv_pageResult",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodePw": "198",
+            "NodePx": "868",
+            "NodePy": "578",
+            "NodeSubType": "EnumWidget_VarBVGet",
+            "NodeTag": "lv_pageResult"
+        },
+        {
             "NodePh": "143",
             "NodePro": {
                 "EP_EnumWidget_NAME": "EnumWidget_Win_IPrint",
@@ -12,17 +34,79 @@
                 }
             },
             "NodePw": "218",
-            "NodePx": "888",
-            "NodePy": "338",
+            "NodePx": "1108",
+            "NodePy": "378",
             "NodeSubType": "EnumWidget_Win_IPrint",
             "NodeTag": "输出"
+        },
+        {
+            "NodePh": "66",
+            "NodePro": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "",
+                "vardesc": "",
+                "varname": "lv_pageResult",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodePw": "198",
+            "NodePx": "648",
+            "NodePy": "598",
+            "NodeSubType": "EnumWidget_VarBVSet",
+            "NodeTag": "lv_pageResult"
+        },
+        {
+            "NodePh": "186",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_CHROME_TABLE_HEADER": "",
+                    "EP_CONTROL_CHROME_TABLE_INDEX_COL": "",
+                    "EP_CONTROL_CHROME_TABLE_SKIPROWS": "",
+                    "EP_CONTROL_FIND_PATH": "'#boxTable'",
+                    "EP_CONTROL_TAG_NAME": "'TABLE'",
+                    "EP_CONTROL_TITLE": "'理财管理'",
+                    "EP_CONTROL_URL": "",
+                    "EP_CONTROL_WINDOW_TITLE": "'双录系统-录音、录像、录屏 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_GetTable",
+                "EP_EnumWidget_VALUE": "317",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200508145232382.jpeg",
+                    "mouse_x_pos": "667",
+                    "mouse_y_pos": "187"
+                }
+            },
+            "NodePw": "214",
+            "NodePx": "728",
+            "NodePy": "358",
+            "NodeSubType": "EnumWidget_IE_GetTable",
+            "NodeTag": "拾取表格(web)"
         },
         {
             "NodePh": "163",
             "NodePro": {
             },
             "NodePw": "242",
-            "NodePx": "588",
+            "NodePx": "448",
             "NodePy": "278",
             "NodeSubType": "EnumWidget_Syntax_while",
             "NodeTag": "While循环"
@@ -39,7 +123,7 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "268",
+            "NodePx": "168",
             "NodePy": "278",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"

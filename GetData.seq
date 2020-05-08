@@ -3,9 +3,66 @@
         {
             "LineColor": "255, 170, 170",
             "LineEnd": {
-                "Pidx": "0814511084450_l_flow_0",
-                "Px": "5225",
-                "Py": "5064"
+                "Pidx": "0814530253560_r_var_0",
+                "Px": "5356",
+                "Py": "5256"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "0814525847857_l_par_0",
+                "Px": "5459",
+                "Py": "5134"
+            },
+            "LineTag": "0814530252658",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "0814525847857_l_flow_0",
+                "Px": "5445",
+                "Py": "5104"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "0814522186952_r_flow_0",
+                "Px": "5250",
+                "Py": "5084"
+            },
+            "LineTag": "0814525276256",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "0814525085055_l_var_0",
+                "Px": "4985",
+                "Py": "5276"
+            },
+            "LineSplit": {
+                "Px": "",
+                "Py": ""
+            },
+            "LineStart": {
+                "Pidx": "0814522186952_r_ret_0",
+                "Px": "5250",
+                "Py": "5114"
+            },
+            "LineTag": "0814525083953",
+            "LineType": "2"
+        },
+        {
+            "LineColor": "255, 170, 170",
+            "LineEnd": {
+                "Pidx": "0814522186952_l_flow_0",
+                "Px": "5065",
+                "Py": "5084"
             },
             "LineSplit": {
                 "Px": "",
@@ -13,17 +70,17 @@
             },
             "LineStart": {
                 "Pidx": "0814504953647_r_sub_0",
-                "Px": "5138",
+                "Px": "4998",
                 "Py": "5064"
             },
-            "LineTag": "0814510459049",
+            "LineTag": "0814521619851",
             "LineType": "2"
         },
         {
             "LineColor": "255, 170, 170",
             "LineEnd": {
                 "Pidx": "0814504953647_l_flow_0",
-                "Px": "4925",
+                "Px": "4785",
                 "Py": "5004"
             },
             "LineSplit": {
@@ -32,7 +89,7 @@
             },
             "LineStart": {
                 "Pidx": "0814485860339_r_flow_0",
-                "Px": "4790",
+                "Px": "4690",
                 "Py": "5004"
             },
             "LineTag": "0814504387746",
@@ -44,7 +101,60 @@
             "NodePanelData": {
                 "InputProperty": [
                     {
-                        "0": "1"
+                        "0": ""
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                },
+                "VarProperty": {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "lv_pageResult",
+                    "varpasstype": "1",
+                    "vartype": "1"
+                }
+            },
+            "NodeProperty": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "",
+                "vardesc": "",
+                "varname": "lv_pageResult",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodeUI": {
+                "FNodePx": "768",
+                "FNodePy": "478",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "r_var_0"
+                    }
+                ],
+                "NodePx": "5198",
+                "NodePy": "5228",
+                "NodeSubType": "EnumWidget_VarBVGet",
+                "NodeTag": "0814530253560",
+                "NodeTitle": "lv_pageResult"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "0": ""
                     }
                 ],
                 "PubProperty": {
@@ -66,8 +176,8 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "788",
-                "FNodePy": "238",
+                "FNodePx": "1008",
+                "FNodePy": "278",
                 "NodeIsBreak": "0",
                 "NodePort": [
                     {
@@ -80,11 +190,131 @@
                         "Pidx": "r_flow_0"
                     }
                 ],
-                "NodePx": "5218",
-                "NodePy": "4988",
+                "NodePx": "5438",
+                "NodePy": "5028",
                 "NodeSubType": "EnumWidget_Win_IPrint",
-                "NodeTag": "0814511084450",
+                "NodeTag": "0814525847857",
                 "NodeTitle": "输出"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                    {
+                        "0": ""
+                    }
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "0",
+                    "mouse_y_pos": "0",
+                    "selcomment": "0",
+                    "seltype": "",
+                    "snapshot_preview": ""
+                },
+                "VarProperty": {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "lv_pageResult",
+                    "varpasstype": "1",
+                    "vartype": "1"
+                }
+            },
+            "NodeProperty": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "",
+                "vardesc": "",
+                "varname": "lv_pageResult",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodeUI": {
+                "FNodePx": "548",
+                "FNodePy": "498",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_var_0"
+                    }
+                ],
+                "NodePx": "4978",
+                "NodePy": "5248",
+                "NodeSubType": "EnumWidget_VarBVSet",
+                "NodeTag": "0814525085055",
+                "NodeTitle": "lv_pageResult"
+            }
+        },
+        {
+            "NodePanelData": {
+                "InputProperty": [
+                ],
+                "PubProperty": {
+                    "NodeRemark": "",
+                    "mouse_x_pos": "667",
+                    "mouse_y_pos": "187",
+                    "selcomment": "0",
+                    "seltype": "Web",
+                    "snapshot_preview": "/screenshots/snapshot_20200508145232382.jpeg"
+                }
+            },
+            "NodeProperty": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_CHROME_TABLE_HEADER": "",
+                    "EP_CONTROL_CHROME_TABLE_INDEX_COL": "",
+                    "EP_CONTROL_CHROME_TABLE_SKIPROWS": "",
+                    "EP_CONTROL_FIND_PATH": "'#boxTable'",
+                    "EP_CONTROL_TAG_NAME": "'TABLE'",
+                    "EP_CONTROL_TITLE": "'理财管理'",
+                    "EP_CONTROL_URL": "",
+                    "EP_CONTROL_WINDOW_TITLE": "'双录系统-录音、录像、录屏 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_GetTable",
+                "EP_EnumWidget_VALUE": "317",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200508145232382.jpeg",
+                    "mouse_x_pos": "667",
+                    "mouse_y_pos": "187"
+                }
+            },
+            "NodeUI": {
+                "FNodePx": "628",
+                "FNodePy": "258",
+                "NodeIsBreak": "0",
+                "NodePort": [
+                    {
+                        "Pidx": "l_flow_0"
+                    },
+                    {
+                        "Pidx": "r_flow_0"
+                    },
+                    {
+                        "Pidx": "r_ret_0"
+                    }
+                ],
+                "NodePx": "5058",
+                "NodePy": "5008",
+                "NodeSubType": "EnumWidget_IE_GetTable",
+                "NodeTag": "0814522186952",
+                "NodeTitle": "拾取表格(web)"
             }
         },
         {
@@ -106,7 +336,7 @@
             "NodeProperty": {
             },
             "NodeUI": {
-                "FNodePx": "488",
+                "FNodePx": "348",
                 "FNodePy": "178",
                 "NodeIsBreak": "0",
                 "NodePort": [
@@ -126,7 +356,7 @@
                         "Pidx": "r_sub_0"
                     }
                 ],
-                "NodePx": "4918",
+                "NodePx": "4778",
                 "NodePy": "4928",
                 "NodeSubType": "EnumWidget_Syntax_while",
                 "NodeTag": "0814504953647",
@@ -156,7 +386,7 @@
                 }
             },
             "NodeUI": {
-                "FNodePx": "168",
+                "FNodePx": "68",
                 "FNodePy": "178",
                 "NodeIsBreak": "0",
                 "NodePort": [
@@ -164,7 +394,7 @@
                         "Pidx": "r_flow_0"
                     }
                 ],
-                "NodePx": "4598",
+                "NodePx": "4498",
                 "NodePy": "4928",
                 "NodeSubType": "EnumWidget_Begin",
                 "NodeTag": "0814485860339",

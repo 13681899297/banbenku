@@ -6,7 +6,7 @@
     },
     "OpenFlow": "[\n    {\n        \"seq\": \"Main\"\n    },\n    {\n        \"seq\": \"LoginCSM\"\n    },\n    {\n        \"seq\": \"ProductsPage\"\n    },\n    {\n        \"seq\": \"GetData\"\n    }\n]\n",
     "ProInfo": {
-        "ProChange": "2020/05/08 14:51:22",
+        "ProChange": "2020/05/08 14:53:12",
         "ProCreate": "2020/05/08 14:28:04",
         "ProDesc": "",
         "ProImports": "",
@@ -99,6 +99,15 @@
                     "vardef": "",
                     "vardesc": "",
                     "varname": "pv_key"
+                }
+            ],
+            "spv": [
+                {
+                    "vardef": "",
+                    "vardesc": "",
+                    "varname": "lv_pageResult",
+                    "varpasstype": "1",
+                    "vartype": "1"
                 }
             ],
             "spy": "Main"

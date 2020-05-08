@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 14:51:22
+# 编译日期：2020-05-08 14:53:12
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -33,12 +33,16 @@ class YeHongJun_KaoShi:
             self.input_arg = self.input_arg.replace("\\","/")
       
     def GetData(self,pv_key=None):
+        lv_pageResult=None
         # While循环
         self.__logger.debug('Flow:GetData,StepNodeTag:0814504953647,Note:')
         while True:
+            # IE拾取表格(web)
+            self.__logger.debug('Flow:GetData,StepNodeTag:0814522186952,Note:')
+            lv_pageResult = iie.get_ie_table(title=r'理财管理',selector=r'#boxTable',waitfor=10)
             # 输出
-            self.__logger.debug('Flow:GetData,StepNodeTag:0814511084450,Note:')
-            rpa_str.iprints(1)
+            self.__logger.debug('Flow:GetData,StepNodeTag:0814525847857,Note:')
+            rpa_str.iprints(lv_pageResult)
       
     def LoginCSM(self):
         password='TVlUqIwIyp0eXB=='
