@@ -1,13 +1,121 @@
 {
     "NodeList": [
         {
+            "NodePh": "66",
+            "NodePro": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "'TVlUqIwIyp0eXB=='",
+                "vardesc": "",
+                "varname": "password",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "2"
+            },
+            "NodePw": "198",
+            "NodePx": "1116",
+            "NodePy": "641",
+            "NodeSubType": "EnumWidget_VarBVGet",
+            "NodeTag": "password"
+        },
+        {
             "NodePh": "196",
             "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#loginWrap > UL:nth-of-type(1) > LI:nth-of-type(2) > INPUT:nth-of-type(1)'",
+                    "EP_CONTROL_TAG_NAME": "'INPUT'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'http://122.112.200.222:9080/login.action'",
+                    "EP_CONTROL_WINDOW_TITLE": "'双录系统-录音、录像、录屏 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_SetText",
+                "EP_EnumWidget_VALUE": "306",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200508144239215.jpeg",
+                    "mouse_x_pos": "83",
+                    "mouse_y_pos": "12"
+                }
             },
             "NodePw": "218",
-            "NodePx": "1036",
-            "NodePy": "392",
-            "NodeSubType": "EnumWidget_Gen_SetText",
+            "NodePx": "1298",
+            "NodePy": "475",
+            "NodeSubType": "EnumWidget_IE_SetText",
+            "NodeTag": "设置文本"
+        },
+        {
+            "NodePh": "66",
+            "NodePro": {
+                "inpar_Order": "",
+                "inpar_filetype": "",
+                "inpar_helpdesc": "",
+                "inpar_init": "",
+                "inpar_required": "0",
+                "inputpar": "",
+                "vardef": "'ceshi001'",
+                "vardesc": "",
+                "varname": "userName",
+                "varpasstype": "1",
+                "varrobot": "",
+                "vartype": "1"
+            },
+            "NodePw": "198",
+            "NodePx": "876",
+            "NodePy": "557",
+            "NodeSubType": "EnumWidget_VarBVGet",
+            "NodeTag": "userName"
+        },
+        {
+            "NodePh": "196",
+            "NodePro": {
+                "EP_CONTROL": {
+                    "EP_CONTROL_FIND_PATH": "'#loginWrap > UL:nth-of-type(1) > LI:nth-of-type(1) > INPUT:nth-of-type(1)'",
+                    "EP_CONTROL_TAG_NAME": "'INPUT'",
+                    "EP_CONTROL_TITLE": "",
+                    "EP_CONTROL_URL": "'http://122.112.200.222:9080/login.action'",
+                    "EP_CONTROL_WINDOW_TITLE": "'双录系统-录音、录像、录屏 - Internet Explorer'",
+                    "EP_CONTROL_WINDOW_TITLE_Check": "true"
+                },
+                "EP_EnumWidget_NAME": "EnumWidget_IE_SetText",
+                "EP_EnumWidget_VALUE": "306",
+                "EP_Gen": {
+                    "EP_Gen_AFTERDELAY": "",
+                    "EP_Gen_BEFOREDELAY": "",
+                    "EP_Gen_NOTE": "",
+                    "EP_Gen_WAITFOR": "10000"
+                },
+                "EP_INPUT": {
+                    "EP_INPUT_MOUSE_CLICK": "'left'",
+                    "EP_INPUT_POSITION": "'center'",
+                    "EP_INPUT_X_OFFSET": "",
+                    "EP_INPUT_Y_OFFSET": ""
+                },
+                "EP_SNAP_SHOT": {
+                    "EP_SNAP_SHOT_PREVIEW": "/screenshots/snapshot_20200508144105839.jpeg",
+                    "mouse_x_pos": "65",
+                    "mouse_y_pos": "8"
+                }
+            },
+            "NodePw": "218",
+            "NodePx": "1038",
+            "NodePy": "395",
+            "NodeSubType": "EnumWidget_IE_SetText",
             "NodeTag": "设置文本"
         },
         {
@@ -32,8 +140,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "736",
-            "NodePy": "392",
+            "NodePx": "738",
+            "NodePy": "395",
             "NodeSubType": "EnumWidget_Key_HotKey",
             "NodeTag": "热键输入"
         },
@@ -54,8 +162,8 @@
                 "vartype": "1"
             },
             "NodePw": "198",
-            "NodePx": "136",
-            "NodePy": "552",
+            "NodePx": "138",
+            "NodePy": "555",
             "NodeSubType": "EnumWidget_VarBVGet",
             "NodeTag": "url"
         },
@@ -75,8 +183,8 @@
                 }
             },
             "NodePw": "290",
-            "NodePx": "396",
-            "NodePy": "412",
+            "NodePx": "398",
+            "NodePy": "415",
             "NodeSubType": "EnumWidget_Config_Begin",
             "NodeTag": "打开浏览器"
         },
@@ -92,8 +200,8 @@
                 }
             },
             "NodePw": "214",
-            "NodePx": "156",
-            "NodePy": "412",
+            "NodePx": "158",
+            "NodePy": "415",
             "NodeSubType": "EnumWidget_Begin",
             "NodeTag": "开始"
         }

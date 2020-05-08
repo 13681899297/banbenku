@@ -1,5 +1,5 @@
 # coding=utf-8
-# 编译日期：2020-05-08 14:40:55
+# 编译日期：2020-05-08 14:42:46
 # 版权所有：www.i-search.com.cn
 import time
 import pdb
@@ -9,6 +9,7 @@ import getopt
 from sys import argv
 import sys
 import ubpa.ibrowse as ibrowse
+import ubpa.iie as iie
 import ubpa.ikeyboard as ikeyboard
 
 class YeHongJun_KaoShi:
@@ -31,6 +32,8 @@ class YeHongJun_KaoShi:
             self.input_arg = self.input_arg.replace("\\","/")
       
     def LoginCSM(self):
+        password='TVlUqIwIyp0eXB=='
+        userName='ceshi001'
         url='http://122.112.200.222:9080/login.action'
         #打开浏览器
         self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814383211710,Note:打开CSM')
@@ -38,6 +41,12 @@ class YeHongJun_KaoShi:
         # 热键输入
         self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814400306515,Note:最大化窗口')
         ikeyboard.key_send_cs(text='#{UP}',waitfor=10)
+        # 设置文本
+        self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814403727417,Note:')
+        iie.set_text(url=r'http://122.112.200.222:9080/login.action',selector=r'#loginWrap > UL:nth-of-type(1) > LI:nth-of-type(1) > INPUT:nth-of-type(1)',text=userName,waitfor=10)
+        # 设置文本
+        self.__logger.debug('Flow:LoginCSM,StepNodeTag:0814423516022,Note:')
+        iie.set_text(url=r'http://122.112.200.222:9080/login.action',selector=r'#loginWrap > UL:nth-of-type(1) > LI:nth-of-type(2) > INPUT:nth-of-type(1)',text=password,waitfor=10)
       
     def Main(self):
         pass
